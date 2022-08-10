@@ -1,3 +1,11 @@
+/* Fuente */
+@font-face {
+    font-family: 'hun_din';
+    src: url("./../font/HunDIN1451.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Márgenes de la página */
 body {
     margin: 0%;
@@ -5,15 +13,39 @@ body {
   } 
 /* Menú principal */
 .topnav {
-    background-color: #1c1c1c;
+    background-color: #1e1e1e;
     overflow: hidden;
+    border-bottom-style: solid;
+    border-color: rgb(255, 63, 63);
+    padding: 0.75%;
 }
 .topnav a {
     float: left;
     color: #f2f2f2;
-    font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'hun_din';
+}
+
+/* Animación menu */
+
+/*Imágen*/
+/*.bg {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    z-index: 1;
+}
+.fr{
+    position: relative;
+    background-color: red;
+    z-index: 2;
+}*/
+
+div.img {
+background-image: url("./images/background.png");
+background-color: #cccccc;
 }
