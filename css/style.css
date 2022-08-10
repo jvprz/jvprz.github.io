@@ -5,11 +5,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'tattoo';
+    src: url("./../font/Hugtophia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Márgenes de la página */
 body {
     margin: 0%;
     padding: 0%;
+    height: 100%;
   } 
 /* Menú principal */
 .topnav {
@@ -17,35 +24,76 @@ body {
     overflow: hidden;
     border-bottom-style: solid;
     border-color: rgb(255, 63, 63);
-    padding: 0.75%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.dactive{
+    float: left;
+    width: 150px;
+}
+.dmh{
+    float: left;
+    height: 40px;
+    width: 150px;
+    box-sizing: border-box;
 }
 .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 15px;
     text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 5px;
+    font-size: 13px;
+    letter-spacing: 3px;
     font-family: 'hun_din';
+    display: inline-block;
+    transition: 0.3s;
+}
+.mh:hover{
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+.dmh:hover{
+    border-bottom-style: solid;
+    border-color: rgb(255, 63, 63);
 }
 
-/* Animación menu */
-
-/*Imágen*/
-/*.bg {
+.topimg {
+    background-image: url("./../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     max-width: 100%;
     height: auto;
     width: auto\9;
-    z-index: 1;
 }
-.fr{
-    position: relative;
-    background-color: red;
-    z-index: 2;
-}*/
-
-div.img {
-background-image: url("./images/background.png");
-background-color: #cccccc;
+.fr {
+    margin: auto;
+    width: 50%;
+    padding: 70px;
+    text-align: center;
+}
+.fr2 {
+    margin: auto;
+    width: 50%;
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.95);
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.17);
+    box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.17);
+}
+.nombre {
+    font-size: 100px;
+    font-family: 'tattoo';
+}
+.titulo {
+    font-size: 20px;
+    font-family: 'hun_din';
+}
+.fr3 {
+    margin: auto;
+    width: 50%;
+    padding: 70px;
+    text-align: center;
 }
