@@ -71,29 +71,35 @@ body {
     width: 50%;
     padding: 70px;
     text-align: center;
+    margin-bottom: 5%;
 }
 .fr2 {
     margin: auto;
     width: 50%;
-    padding: 80px;
     text-align: center;
-    background-color: rgb(255, 255, 255, 0.95);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     -webkit-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.17);
     -moz-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.17);
     box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.17);
 }
 .nombre {
+    margin: 0%;
+    padding-top: 100px;
     font-size: 100px;
     font-family: 'tattoo';
 }
 .titulo {
+    padding-bottom: 100px;
+    color: #b1b1b1;
     font-size: 20px;
     font-family: 'hun_din';
+    letter-spacing: 4px;
 }
 .fr3 {
     margin: auto;
     width: 50%;
     padding: 70px;
     text-align: center;
+    margin-top: 5%;
 }
