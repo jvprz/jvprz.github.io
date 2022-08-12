@@ -50,10 +50,10 @@ body {
 .topnav a {
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 15px;
+    padding: 11px 15px;
     text-decoration: none;
     font-size: 13px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-family: 'hun_din';
     display: inline-block;
     transition: 0.3s;
@@ -80,10 +80,12 @@ body {
     margin: 0;
 }
 .dropdown-content {
+    margin-top: 0.25%;
     padding-top: 1%;
     padding-bottom: 1%;
     display: none;
     position: absolute;
+    border-top-left-radius: 0% !important;
     border-radius: 5px;
     background-color: white;
     min-width: 200px;
@@ -106,6 +108,7 @@ body {
     text-decoration: underline;
 }
 .dropdown:hover .dropdown-content {
+    transition: 0.3s;
     display: block;
 }
 
@@ -117,6 +120,8 @@ body {
     max-width: 100%;
     height: auto;
     width: auto\9;
+    border-bottom: solid;
+    border-color: rgb(255, 63, 63);
 }
 .fr {
     margin: auto;
