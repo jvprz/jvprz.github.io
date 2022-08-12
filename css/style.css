@@ -20,22 +20,32 @@ body {
   } 
 /* Menú principal */
 .topnav {
-    background-color: #1e1e1e;
+    background-color: #0e0e0e;
     overflow: hidden;
     border-bottom-style: solid;
     border-color: rgb(255, 63, 63);
     padding-top: 1%;
     padding-bottom: 1%;
 }
-.dactive{
-    float: left;
-    width: 150px;
+.dactive a {
+    position: absolute;
+    top: 0.5%;
+    margin-left: 1%;
+    font-family: 'tattoo' !important;
+    font-size: 30px !important;
+}
+.dactive a:hover {
+    color: rgb(255, 63, 63);
 }
 .dmh{
+    margin-left: 2%;
     float: left;
     height: 40px;
     width: 150px;
     box-sizing: border-box;
+}
+#first {
+    margin-left: 10%;
 }
 .topnav a {
     color: #f2f2f2;
@@ -55,6 +65,48 @@ body {
 .dmh:hover{
     border-bottom-style: solid;
     border-color: rgb(255, 63, 63);
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding-top: 1%;
+    float: none;
+    color: #1e1e1e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    color: rgb(255, 63, 63);
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .topimg {
@@ -88,6 +140,7 @@ body {
     padding-top: 100px;
     font-size: 100px;
     font-family: 'tattoo';
+    color: #0e0e0e;
 }
 .titulo {
     padding-bottom: 100px;
@@ -95,6 +148,7 @@ body {
     font-size: 20px;
     font-family: 'hun_din';
     letter-spacing: 4px;
+    text-decoration: underline;
 }
 .fr3 {
     margin: auto;
