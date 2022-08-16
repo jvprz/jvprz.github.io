@@ -1,15 +1,25 @@
 <!doctype html>
-<html>
+<html lang="es">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <!-- CSS Menú principal -->
+    <link href="./css/style_menu.css" rel="stylesheet" type="text/css">
+    <!-- CSS Body-->
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script type="text/javascript" src="./js/script.js"></script>
     <title>jvprz</title>
   </head>
   <body>
-    <div class="topnav">
-      <div class="dactive"><a class="active" href="#home";>Jvprz_</a></div>
-      <div class="dmh" id="first"><a href="#projects" class="mh">INFOMRACIÓN</a></div>
+    <div class="topnav" id="r_topnav">
+      <div class="dactive">
+        <a class="active" href="#home";>Jvprz_</a>
+      </div>
+      <div class="dmh" id="first">
+        <a href="#projects" class="mh">INFOMRACIÓN</a>
+      </div>
       <div class="dmh">
         <div class="dropdown">
           <div class="dropbtn">
@@ -29,9 +39,16 @@
           </div>
         </div>
       </div>
-      <div class="dmh"><a href="#contact" class="mh">CONTACTO</a></div>
+      <div class="dmh">
+        <a href="#contact" class="mh">CONTACTO</a>
+      </div>
       <div class="dmh">
         <a href="./cv/Javier Pérez Santos.pdf" class="mh">CURRICULUM</a>
+      </div>
+      <div>
+        <a href="javascript:void(0);" class="icon" onclick="responsive_menu()">
+        <i class="bi bi-list"></i>
+        </a>
       </div>
     </div>
     <div class="topimg">
