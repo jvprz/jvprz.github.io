@@ -1,4 +1,5 @@
-/* Fuente */
+
+/* fonts */
 @font-face {
     font-family: 'hun_din';
     src: url("./../font/HunDIN1451.ttf") format("truetype");
@@ -11,11 +12,11 @@
     font-weight: normal;
     font-style: normal;
 }
-/* Márgenes de la página */
+
+/* body margins */
 body {
     margin: 0%;
     padding: 0%;
-    height: 100%;
 } 
 
 

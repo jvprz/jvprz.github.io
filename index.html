@@ -4,53 +4,41 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <!-- CSS Menú principal -->
-    <link href="./css/style_menu.css" rel="stylesheet" type="text/css">
-    <!-- CSS Body-->
+    <!-- CSS main -->
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <!-- CSS main menu -->
+    <link href="./css/style_menu.css" rel="stylesheet" type="text/css">
+    <!-- CSS bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <script type="text/javascript" src="./js/script.js"></script>
+    <!-- website tittle -->
     <title>jvprz</title>
   </head>
   <body>
-    <div class="topnav" id="r_topnav">
-      <div class="dactive">
-        <a class="active" href="#home";>Jvprz_</a>
-      </div>
-      <div class="dmh" id="first">
-        <a href="#projects" class="mh">INFOMRACIÓN</a>
-      </div>
-      <div class="dmh">
-        <div class="dropdown">
-          <div class="dropbtn">
-            <a href="#projects" class="mh">PROYECTOS<i class="bi bi-caret-down-fill"></i>
-            </a>
-          </div>
-          <div class="dropdown-content">
-            <a href="#">
-              <i class="bi bi-code-slash"></i> web designer
-            </a>
-            <a href="#">
-              <i class="bi bi-controller"></i> gaming
-            </a>
-            <a href="#">
-              <i class="bi bi-discord"></i> discord
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="dmh">
-        <a href="#contact" class="mh">CONTACTO</a>
-      </div>
-      <div class="dmh">
-        <a href="./cv/Javier Pérez Santos.pdf" class="mh">CURRICULUM</a>
-      </div>
-      <div>
-        <a href="javascript:void(0);" class="icon" onclick="responsive_menu()">
-        <i class="bi bi-list"></i>
-        </a>
-      </div>
+    <!-- start div menu -->
+    <div class="top-nav">
+      <!-- start nav -->
+      <nav id="menu">
+        <!-- start menu -->
+        <ul>
+          <li id="home"><a href="#">JVPRZ_</a></li>
+          <li><a href="#">INFORMACIÓN</a></li>
+          <li><a href="#">PROYECTOS</a>
+            <!-- start dropdown menu -->
+            <ul>
+              <li><a href="#">Web designer</a></li>
+              <li><a href="#">Discord</a></li>
+              <li><a href="#">Gaming</a></li>
+            </ul>
+            <!-- end dropown menu-->
+          </li>
+          <li><a href="#">CONTACTO</a></li>
+          <li><a href="#">CURRICULUM</a></li>
+        </ul>
+        <!-- end menu -->
+      </nav>
+      <!-- end nav -->
     </div>
+    <!-- end div menu -->
     <div class="topimg">
       <div class="fr">
       </div>
