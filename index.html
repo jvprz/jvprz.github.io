@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="es">
+  <!-- start head -->
   <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <!-- CSS main -->
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <!-- CSS main menu -->
@@ -13,6 +13,8 @@
     <!-- website tittle -->
     <title>jvprz</title>
   </head>
+  <!-- end head -->
+  <!-- start body-->
   <body>
     <!-- start div menu -->
     <div class="top-nav">
@@ -21,18 +23,36 @@
         <!-- start menu -->
         <ul>
           <li id="home"><a href="#">JVPRZ_</a></li>
-          <li><a href="#">INFORMACIÓN</a></li>
-          <li><a href="#">PROYECTOS</a>
+          <li><a href="#"><p>INFORMACIÓN</p></a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">
+              <p>PROYECTOS
+              <!-- caret down fill icon -->
+              <i class="bi bi-caret-down-fill"></i>
+              </p>
+            </a>
             <!-- start dropdown menu -->
-            <ul>
-              <li><a href="#">Web designer</a></li>
-              <li><a href="#">Discord</a></li>
-              <li><a href="#">Gaming</a></li>
-            </ul>
+            <div class="dropdown-content">
+              <a href="#">
+                <!-- code slash icon -->
+                <i class="bi bi-code-slash"></i>  
+                web designer
+              </a>
+              <a href="#">
+                <!-- discord icon -->
+                <i class="bi bi-discord"></i>
+                discord
+              </a>
+              <a href="#">
+                <!-- controller icon -->
+                <i class="bi bi-controller"></i>
+                gaming
+              </a>
+            </div>
             <!-- end dropown menu-->
           </li>
-          <li><a href="#">CONTACTO</a></li>
-          <li><a href="#">CURRICULUM</a></li>
+          <li><a href="#"><p>CONTACTO</p></a></li>
+          <li><a href="./cv/Javier Pérez Santos.pdf" target="_blank"><p>CURRICULUM</p></a></li>
         </ul>
         <!-- end menu -->
       </nav>
@@ -50,4 +70,5 @@
       </div>
     </div>
   </body>
+  <!-- end body -->
 </html>
