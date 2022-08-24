@@ -1,13 +1,7 @@
 /* import menu font */
 @font-face {
     font-family: 'f1';
-    src: url("./../font/HunDIN1451.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'f2';
-    src: url("./../font/Hugtophia.ttf") format("truetype");
+    src: url("./../font/Questrial-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -32,10 +26,9 @@
     color:#fff;
     text-decoration:none;
     font-weight:400;
-    font-size:13px;
+    font-size:14px;
     padding:10px;
     font-family: 'f1';
-    text-transform:uppercase;
     letter-spacing:1px;
     display: inline-block;
     position: relative;

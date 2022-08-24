@@ -2,13 +2,7 @@
 /* import fonts */
 @font-face {
     font-family: 'hun_din';
-    src: url("./../font/HunDIN1451.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'tattoo';
-    src: url("./../font/Hugtophia.ttf") format("truetype");
+    src: url("./../font/BebasNeue-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -34,10 +28,10 @@ body {
     text-align: center;
     margin-right: 16%;
     margin-left: 16%;
-    margin-top: 10%;
+    margin-top: 9%;
     margin-bottom: 10%;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 2%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -58,4 +52,27 @@ body {
 /* subtitle page */
 .subtitle {
     color: rgb(175, 175, 175);
+    margin-top: 0;
+}
+
+/* main icons */
+.main-icons {
+    margin-top: 10%;
+}
+
+.main-icons a {
+    color: #111;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.main-icons i {
+    color: rgb(175, 175, 175);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* main icons hover effect */
+.main-icons a:hover {
+    color: rgb(255, 63, 63);
 }
