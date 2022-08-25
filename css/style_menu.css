@@ -64,6 +64,11 @@
     background-color: rgb(51, 51, 51);
     border-radius: 3px;
 }
+
+.dropdown-content a:hover ~ #menu ul li a {
+    background-color: rgb(51, 51, 51);
+    border-radius: 3px;
+}
  
 /* dropdown menu */
 .dropdown-content {
