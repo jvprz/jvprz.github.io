@@ -7,6 +7,11 @@
     font-style: normal;
 }
 
+/* html */
+html {
+    scroll-behavior: smooth;
+}
+
 /* body */
 body {
     margin: 0;
@@ -15,7 +20,10 @@ body {
 
 /* index background imagen */
 .background-image {
-    background-image: url('./../images/background.jpg');
+    background-image: url('./../images/background_update.png');
+    max-width: 100%;
+    max-height: auto;
+    background-size: 101% auto;
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid transparent;
@@ -23,13 +31,13 @@ body {
 
 /* div main title page */
 .main-title {
-    background-color: #fff;
-    border-radius: 10px;
+    background-color: rgb(255,255,255,0.9);
+    border-radius: 5px;
     text-align: center;
     margin-right: 16%;
     margin-left: 16%;
-    margin-top: 9%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     padding-top: 10%;
     padding-bottom: 2%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -45,7 +53,7 @@ body {
 .main-name {
     font-weight: bold;
     color: #111;
-    font-size: 60px;
+    font-size: 70px;
     margin: 0;
 }
 
@@ -75,4 +83,25 @@ body {
 /* main icons hover effect */
 .main-icons a:hover {
     color: rgb(255, 63, 63);
+}
+
+/* information div */
+.information {
+    overflow: hidden;
+    background-color: #111;
+}
+
+.information div {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: #fff;
+    width: 50%;
+}
+
+.information div p {
+    font-family: 'hun_din';
+    font-weight: bold;
+    color: #111;
+    font-size: 40px;
+    text-align: center;
 }
