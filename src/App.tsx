@@ -1,14 +1,17 @@
 import Navbar from './components/Navbar';
-import Hero from './sections/Hero';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+
+import Hero from './sections/Hero';
+import Contact from './sections/Contact';
 
 function App() {
   return (
     <>
       <Navbar />
-      <main className="pt-24">
+      <main>
         <Hero />
+        <Contact />
         <Footer />
       </main>
       <ScrollToTop />
