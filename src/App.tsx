@@ -1,12 +1,17 @@
+import Navbar from './components/Navbar';
+import Hero from './sections/Hero';
+import Footer from './components/Footer';
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-purple-100">
-      <h1 className="text-4xl font-bold text-purple-800">
-        Tailwind funciona 🎉
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <main className="pt-24">
+        <Hero />
+        <Footer />
+      </main>
+    </>
   );
 }
 
 export default App;
-
