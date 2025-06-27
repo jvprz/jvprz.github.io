@@ -5,3 +5,6 @@
 :root {
     --color-red: #e63946;
 }
+html {
+  scroll-behavior: smooth;
+}
