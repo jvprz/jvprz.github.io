@@ -5,6 +5,10 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      colors: {
+        red: '#e05a5a',
+        dark: '#171717',
+      },
     },
   },
   plugins: [],

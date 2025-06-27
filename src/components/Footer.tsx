@@ -1,20 +1,26 @@
 export default function Footer() {
   return (
-    <footer className="bg-white border-t mt-16">
-      <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
-        {/* Izquierda */}
-        <p>&copy; {new Date().getFullYear()} Javier Pérez. Todos los derechos reservados.</p>
+    <footer className="bg-dark text-white border-t border-dark">
+      <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center">
+        {/* Nombre */}
+        <h2 className="text-2xl font-black tracking-wide uppercase">Javier Pérez</h2>
 
-        {/* Derecha: Redes sociales */}
-        <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="https://github.com/tucuenta" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700">
-            <i className="fab fa-github text-lg"></i>
+        {/* Redes sociales */}
+        <div className="flex space-x-5 mt-4 md:mt-0 text-xl">
+          <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <i className="fab fa-github hover:text-red"></i>
           </a>
-          <a href="https://linkedin.com/in/tucuenta" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700">
-            <i className="fab fa-linkedin text-lg"></i>
+          <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <i className="fab fa-linkedin hover:text-red"></i>
           </a>
-          <a href="https://twitter.com/tucuenta" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700">
-            <i className="fab fa-twitter text-lg"></i>
+          <a href="https://x.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <i className="fab fa-x-twitter hover:text-red"></i>
+          </a>
+          <a href="https://instagram.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <i className="fab fa-instagram hover:text-red"></i>
+          </a>
+          <a href="https://discord.gg/tuinvitacion" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <i className="fab fa-discord hover:text-red"></i>
           </a>
         </div>
       </div>
