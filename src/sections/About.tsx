@@ -1,4 +1,52 @@
 export default function About() {
+  const images = [
+    {
+      src: "/assets/insta1.png",
+      alt: "Dibujo de Iron Man",
+      link: "https://www.instagram.com/p/B1dyo9SCjQM/?utm_source=ig_web_copy_link&igsh=aHZwaXkzemVvbjdt",
+    },
+    {
+      src: "/assets/insta2.png",
+      alt: "Dibujo de Ahsoka Tano",
+      link: "https://www.instagram.com/p/CI5Q_KgAexB/?utm_source=ig_web_copy_link&igsh=MTh1NGdnOWhxbWs3bQ==",
+    },
+    {
+      src: "/assets/insta3.png",
+      alt: "Dibujo de Thor",
+      link: "https://www.instagram.com/p/CA6CfrTqhN9/?utm_source=ig_web_copy_link&igsh=dmVwaXo1d3B6NDNh",
+    },
+    {
+      src: "/assets/insta4.png",
+      alt: "Dibujo del Caballero Luna",
+      link: "https://www.instagram.com/p/Cc0Whm5NUwI/?utm_source=ig_web_copy_link&igsh=c3JxM213Zm1yY2Jz",
+    },
+    {
+      src: "/assets/insta5.png",
+      alt: "Premiere Deadpool y lobezno",
+      link: "https://www.instagram.com/p/C9yA7QgNQKw/?utm_source=ig_web_copy_link&igsh=dTJqeDZvZXM4d293",
+    },
+    {
+      src: "/assets/insta6.png",
+      alt: "Dibujo de Blue",
+      link: "https://www.instagram.com/p/Bj5F_zqjyNy/?utm_source=ig_web_copy_link&igsh=MW56MDBiNDU0NnBnbA==",
+    },
+    {
+      src: "/assets/insta7.png",
+      alt: "Personaje 3D",
+      link: "https://www.instagram.com/p/ENLACE7/",
+    },
+    {
+      src: "/assets/insta8.png",
+      alt: "Diseño gráfico",
+      link: "https://www.instagram.com/p/ENLACE8/",
+    },
+    {
+      src: "/assets/insta9.png",
+      alt: "Animación",
+      link: "https://www.instagram.com/p/ENLACE9/",
+    },
+  ];
+
   return (
     <section id="about" className="bg-light text-dark py-24 px-6">
       {/* Sección principal */}
@@ -38,15 +86,23 @@ export default function About() {
           </div>
         </div>
 
-        {/* Feed de Instagram */}
-        <div className="w-full h-[600px]">
-          <iframe
-            src="//lightwidget.com/widgets/a207ab1059055ce5afded553f0885869.html"
-            scrolling="no"
-            allowTransparency="true"
-            className="w-full h-full border-0 overflow-hidden"
-            title="Instagram Feed"
-          ></iframe>
+        {/* Galería de Instagram */}
+        <div className="grid grid-cols-3 gap-3 w-full max-w-2xl mx-auto">
+          {images.map((img, i) => (
+            <a
+              key={i}
+              href={img.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative w-full aspect-square overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform"
+            >
+              <img
+                src={img.src}
+                alt={img.alt}
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            </a>
+          ))}
         </div>
       </div>
 
@@ -72,51 +128,17 @@ export default function About() {
             También disfruto mucho del <strong className="text-red">diseño visual</strong>. Me encanta ilustrar personajes y crear modelos 3D como este. Usando herramientas como <strong className="text-red">Blockbench</strong>, <strong className="text-red">Photoshop</strong> e <strong className="text-red">Illustrator</strong>, doy vida a ideas que mezclan <strong className="text-red">creatividad</strong> y <strong className="text-red">tecnología</strong>.
           </p>
 
-          {/* Iconos de herramientas de diseño */}
+          {/* Iconos herramientas */}
           <div className="absolute left-0 top-[245px] flex flex-wrap gap-6 text-4xl text-dark mt-8">
             <i className="fas fa-palette" title="Diseño gráfico"></i>
             <i className="fas fa-cube" title="Blockbench"></i>
-
-            {/* Photoshop SVG */}
-            <svg
-              className="w-8 h-8"
-              viewBox="0 0 128 128"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Photoshop"
-            >
+            <svg className="w-8 h-8" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Photoshop">
               <rect width="128" height="128" rx="16" fill="currentColor" />
-              <text
-                x="32"
-                y="85"
-                fontFamily="Arial"
-                fontWeight="bold"
-                fontSize="58"
-                fill="white"
-              >
-                Ps
-              </text>
+              <text x="32" y="85" fontFamily="Arial" fontWeight="bold" fontSize="58" fill="white">Ps</text>
             </svg>
-
-            {/* Illustrator SVG */}
-            <svg
-              className="w-8 h-8"
-              viewBox="0 0 128 128"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Illustrator"
-            >
+            <svg className="w-8 h-8" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrator">
               <rect width="128" height="128" rx="16" fill="currentColor" />
-              <text
-                x="30"
-                y="85"
-                fontFamily="Arial"
-                fontWeight="bold"
-                fontSize="58"
-                fill="white"
-              >
-                Ai
-              </text>
+              <text x="30" y="85" fontFamily="Arial" fontWeight="bold" fontSize="58" fill="white">Ai</text>
             </svg>
           </div>
         </div>
