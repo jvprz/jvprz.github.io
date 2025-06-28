@@ -44,7 +44,7 @@ export default function About() {
             src="//lightwidget.com/widgets/a207ab1059055ce5afded553f0885869.html"
             scrolling="no"
             allowTransparency="true"
-            className="w-full h-full border-0 overflow-hidden rounded-md"
+            className="w-full h-full border-0 overflow-hidden"
             title="Instagram Feed"
           ></iframe>
         </div>

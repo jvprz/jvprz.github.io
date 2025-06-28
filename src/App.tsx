@@ -3,8 +3,9 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
 import Hero from './sections/Hero';
-import Contact from './sections/Contact';
 import About from './sections/About';
+import Proyectos from './sections/Projects';
+import Contact from './sections/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Proyectos />
         <Contact />
         <Footer />
       </main>
