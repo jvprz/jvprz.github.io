@@ -32,18 +32,18 @@ export default function About() {
     },
     {
       src: "/assets/insta7.png",
-      alt: "Personaje 3D",
-      link: "https://www.instagram.com/p/ENLACE7/",
+      alt: "Dibujo de Goku",
+      link: "https://www.instagram.com/p/CKrrzkgs6Jz/?utm_source=ig_web_copy_link&igsh=cXhiOWs0Zmw5YzV3",
     },
     {
       src: "/assets/insta8.png",
-      alt: "Diseño gráfico",
-      link: "https://www.instagram.com/p/ENLACE8/",
+      alt: "Dibujo de Rhaenyra Targaryen",
+      link: "https://www.instagram.com/p/C66FUt9t5NU/?utm_source=ig_web_copy_link&igsh=aTcwMGNxYTN6OW5z",
     },
     {
       src: "/assets/insta9.png",
-      alt: "Animación",
-      link: "https://www.instagram.com/p/ENLACE9/",
+      alt: "Dibujo de Gohan y Goku",
+      link: "https://www.instagram.com/p/C5xqUR8tOu9/?utm_source=ig_web_copy_link&igsh=MXBoeDV4dmxqcHI2aA==",
     },
   ];
 
