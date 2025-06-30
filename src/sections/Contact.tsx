@@ -1,4 +1,31 @@
+import React, { useState } from "react";
+
 export default function Contact() {
+  const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    const res = await fetch("https://formspree.io/f/mkgbyjpk", {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: data,
+    });
+
+    if (res.ok) {
+      setSent(true);
+      form.reset();
+      setTimeout(() => setSent(false), 3000);
+    }
+
+    setLoading(false);
+  };
+
   return (
     <section id="contacto" className="bg-light text-dark py-24 px-4">
       <div className="max-w-6xl mx-auto">
@@ -53,11 +80,8 @@ export default function Contact() {
             <p className="mb-6 text-lg text-gray-700">
               ¿Necesitas un desarrollador? Ponte en contacto conmigo.
             </p>
-            <form
-              action="https://formspree.io/f/XXXXX" // Reemplaza con tu endpoint real
-              method="POST"
-              className="space-y-4"
-            >
+
+            <form onSubmit={handleSubmit} className="space-y-4">
               <input
                 type="text"
                 name="name"
@@ -81,11 +105,39 @@ export default function Contact() {
               />
               <button
                 type="submit"
+                disabled={loading}
                 className="bg-red text-white w-full px-6 py-3 rounded hover:opacity-90 transition"
               >
-                Enviar mensaje
+                {loading ? "Enviando..." : "Enviar mensaje"}
               </button>
             </form>
+
+            {sent && (
+              <div className="mt-6 p-4 bg-green-100 text-green-800 border border-green-300 rounded text-center">
+                ✅ Mensaje enviado con éxito.
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Botones para CV */}
+        <div className="mt-16 text-center">
+          <p className="text-lg text-gray-700 mb-4">También puedes descargar mi CV:</p>
+          <div className="space-x-4">
+            <a
+              href="/assets/CV_Javier_Perez.pdf"
+              download
+              className="inline-block bg-dark text-white px-6 py-2 rounded hover:bg-red transition"
+            >
+              Descargar CV
+            </a>
+            <a
+              href="/assets/CV_Javier_Perez_Europass.pdf"
+              download
+              className="inline-block bg-dark text-white px-6 py-2 rounded hover:bg-red transition"
+            >
+              Descargar Europass
+            </a>
           </div>
         </div>
       </div>

@@ -7,8 +7,8 @@ export default function Projects() {
         <h2 className="text-4xl font-black uppercase tracking-wide text-right mb-4">
           Proyectos
         </h2>
-        <p className="text-right mb-16 text-lg text-gray-600 italic">
-          Algunos de los trabajos en los que he colaborado recientemente
+        <p className="text-right mb-16 text-lg text-gray-600">
+          Algunos de mis proyectos o colaboraciones destacadas.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -31,7 +31,7 @@ export default function Projects() {
                 <p className="text-sm mb-4 text-gray-700">
                   Página desarrollada desde cero para mostrar mis habilidades como
                   <strong className="text-red"> Full Stack Developer</strong>. Inspirada en el estilo
-                  <strong className="text-red"> cyberpunk</strong>, con animaciones, integración de redes sociales,
+                  <strong className="text-red"> cyberpunk minimalista</strong>, con animaciones, integración de redes sociales,
                   render 3D interactivo y sistema de diseño personalizado.
                 </p>
                 <div className="flex flex-wrap gap-2 text-sm text-white">
@@ -41,8 +41,8 @@ export default function Projects() {
                   <span className="bg-dark px-2 py-1 rounded">Sketchfab</span>
                 </div>
               </div>
-              <a href="#" className="mt-6 text-red hover:underline font-medium">
-                Ver proyecto →
+              <a href="https://github.com/jvprz/jvprz.github.io" target="_blank" className="mt-6 text-red hover:underline font-medium">
+                Ver código →
               </a>
             </div>
           </motion.div>
@@ -75,8 +75,8 @@ export default function Projects() {
                   <span className="bg-dark px-2 py-1 rounded">Game Design</span>
                 </div>
               </div>
-              <a href="#" className="mt-6 text-red hover:underline font-medium">
-                Más información →
+              <a href="https://github.com/jvprz/age-of-machines" target="_blank" className="mt-6 text-red hover:underline font-medium">
+                Ver código →
               </a>
             </div>
           </motion.div>
@@ -102,15 +102,30 @@ export default function Projects() {
                   desarrollada durante el bootcamp FullStack Java. Fomenta el networking interno y permite
                   crear grupos sociales, de juegos o actividades.
                 </p>
-                <ul className="text-sm text-gray-600 list-disc list-inside mb-4">
-                  <li>Stack: Java, Spring Boot, React, MySQL</li>
-                  <li>Autenticación JWT, Feed común y sistema de amigos</li>
-                  <li>Chats, grupos y perfil corporativo</li>
-                </ul>
               </div>
-              <a href="#" className="mt-2 text-red hover:underline font-medium">
-                Ver más →
-              </a>
+               <div className="flex flex-wrap gap-2 text-sm text-white">
+                  <span className="bg-dark px-2 py-1 rounded">Java</span>
+                  <span className="bg-dark px-2 py-1 rounded">Spring Boot</span>
+                  <span className="bg-dark px-2 py-1 rounded">Angular</span>
+                  <span className="bg-dark px-2 py-1 rounded">MySQL</span>
+                  <span className="bg-dark px-2 py-1 rounded">JWT</span>
+              </div>
+              <div className="flex flex-wrap gap-4 mt-4">
+                <a
+                  href="https://github.com/jvprz/CJJP-THub-Back-End"
+                  target="_blank"
+                  className="text-red hover:underline font-medium"
+                >
+                  Ver código backend →
+                </a>
+                <a
+                  href="https://github.com/jvprz/CJJP-THub-Front-End"
+                  target="_blank"
+                  className="text-red hover:underline font-medium"
+                >
+                  Ver código frontend →
+                </a>
+              </div>
             </div>
           </motion.div>
 
@@ -145,8 +160,8 @@ export default function Projects() {
                   <span className="bg-dark px-2 py-1 rounded">Plugins</span>
                 </div>
               </div>
-              <a href="#" className="mt-6 text-red hover:underline font-medium">
-                Ver detalles →
+              <a href="https://www.youtube.com/playlist?list=PLzRuBo3GlQAJE_-X-VATzkaMsAVAb8i_l" target="_blank" className="mt-6 text-red hover:underline font-medium">
+                Ver serie →
               </a>
             </div>
           </motion.div>

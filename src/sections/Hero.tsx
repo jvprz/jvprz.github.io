@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="flex justify-center space-x-10 text-2xl text-dark mt-auto pb-2">
+        <div className="flex justify-center space-x-10 text-2xl text-gray-100 mt-auto pb-2">
           <a href="https://github.com/jvprz" target="_blank" rel="noopener noreferrer" className="hover:text-red transition-colors">
             <i className="fab fa-github"></i>
           </a>

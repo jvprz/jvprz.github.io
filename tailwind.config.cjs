@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -16,7 +17,7 @@ module.exports = {
         },
       },
       animation: {
-        'fade-in': 'fade-in 1s ease-out forwards',
+        'fade-in': 'fade-in 0.6s ease-out forwards',
       },
     },
   },
