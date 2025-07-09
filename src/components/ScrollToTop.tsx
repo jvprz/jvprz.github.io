@@ -16,14 +16,15 @@ export default function ScrollToTop() {
   };
 
   return (
-    visible && (
-      <button
-        onClick={scrollToTop}
-        className="fixed bottom-6 right-6 z-50 p-3 w-12 h-12 flex items-center justify-center rounded-lg bg-red text-white shadow-md hover:scale-105 transition"
-        aria-label="Volver arriba"
-      >
-        <i className="fas fa-arrow-up"></i>
-      </button>
-    )
+    <button
+      onClick={scrollToTop}
+      aria-label="Volver arriba"
+      title="Volver arriba"
+      className={`fixed bottom-6 right-6 z-50 w-12 h-12 rounded-lg bg-red text-white flex items-center justify-center shadow-md transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 ${
+        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"
+      }`}
+    >
+      <i className="fas fa-arrow-up"></i>
+    </button>
   );
 }

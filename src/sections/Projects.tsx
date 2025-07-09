@@ -102,13 +102,13 @@ export default function Projects() {
                   desarrollada durante el bootcamp FullStack Java. Fomenta el networking interno y permite
                   crear grupos sociales, de juegos o actividades.
                 </p>
-              </div>
-               <div className="flex flex-wrap gap-2 text-sm text-white">
+                <div className="flex flex-wrap gap-2 text-sm text-white">
                   <span className="bg-dark px-2 py-1 rounded">Java</span>
                   <span className="bg-dark px-2 py-1 rounded">Spring Boot</span>
                   <span className="bg-dark px-2 py-1 rounded">Angular</span>
                   <span className="bg-dark px-2 py-1 rounded">MySQL</span>
                   <span className="bg-dark px-2 py-1 rounded">JWT</span>
+                </div>
               </div>
               <div className="flex flex-wrap gap-4 mt-4">
                 <a
@@ -167,7 +167,7 @@ export default function Projects() {
           </motion.div>
         </div>
 
-        {/* === Footer texto === */}
+        {/* Footer texto */}
         <p className="mt-16 text-center text-lg text-gray-700">
           Puedes ver más proyectos en mi perfil de{" "}
           <a

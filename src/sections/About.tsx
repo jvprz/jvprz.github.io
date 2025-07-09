@@ -3,75 +3,75 @@ export default function About() {
     {
       src: "/assets/insta1.png",
       alt: "Dibujo de Iron Man",
-      link: "https://www.instagram.com/p/B1dyo9SCjQM/?utm_source=ig_web_copy_link&igsh=aHZwaXkzemVvbjdt",
+      link: "https://www.instagram.com/p/B1dyo9SCjQM/",
     },
     {
       src: "/assets/insta2.png",
       alt: "Dibujo de Ahsoka Tano",
-      link: "https://www.instagram.com/p/CI5Q_KgAexB/?utm_source=ig_web_copy_link&igsh=MTh1NGdnOWhxbWs3bQ==",
+      link: "https://www.instagram.com/p/CI5Q_KgAexB/",
     },
     {
       src: "/assets/insta3.png",
       alt: "Dibujo de Thor",
-      link: "https://www.instagram.com/p/CA6CfrTqhN9/?utm_source=ig_web_copy_link&igsh=dmVwaXo1d3B6NDNh",
+      link: "https://www.instagram.com/p/CA6CfrTqhN9/",
     },
     {
       src: "/assets/insta4.png",
       alt: "Dibujo del Caballero Luna",
-      link: "https://www.instagram.com/p/Cc0Whm5NUwI/?utm_source=ig_web_copy_link&igsh=c3JxM213Zm1yY2Jz",
+      link: "https://www.instagram.com/p/Cc0Whm5NUwI/",
     },
     {
       src: "/assets/insta5.png",
       alt: "Premiere Deadpool y Lobezno",
-      link: "https://www.instagram.com/p/C9yA7QgNQKw/?utm_source=ig_web_copy_link&igsh=dTJqeDZvZXM4d293",
+      link: "https://www.instagram.com/p/C9yA7QgNQKw/",
     },
     {
       src: "/assets/insta6.png",
       alt: "Dibujo de Blue",
-      link: "https://www.instagram.com/p/Bj5F_zqjyNy/?utm_source=ig_web_copy_link&igsh=MW56MDBiNDU0NnBnbA==",
+      link: "https://www.instagram.com/p/Bj5F_zqjyNy/",
     },
     {
       src: "/assets/insta7.png",
       alt: "Dibujo de Goku",
-      link: "https://www.instagram.com/p/CKrrzkgs6Jz/?utm_source=ig_web_copy_link&igsh=cXhiOWs0Zmw5YzV3",
+      link: "https://www.instagram.com/p/CKrrzkgs6Jz/",
     },
     {
       src: "/assets/insta8.png",
       alt: "Dibujo de Rhaenyra Targaryen",
-      link: "https://www.instagram.com/p/C66FUt9t5NU/?utm_source=ig_web_copy_link&igsh=aTcwMGNxYTN6OW5z",
+      link: "https://www.instagram.com/p/C66FUt9t5NU/",
     },
     {
       src: "/assets/insta9.png",
       alt: "Dibujo de Gohan y Goku",
-      link: "https://www.instagram.com/p/C5xqUR8tOu9/?utm_source=ig_web_copy_link&igsh=MXBoeDV4dmxqcHI2aA==",
+      link: "https://www.instagram.com/p/C5xqUR8tOu9/",
     },
   ];
 
   return (
     <section id="about" className="bg-light text-dark py-24 px-6">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start relative">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
         {/* Texto */}
-        <div className="relative">
+        <div>
           <h2 className="text-4xl font-black uppercase tracking-wide mb-10 text-dark">Sobre mí</h2>
 
-          <p className="text-lg mb-6 text-justify">
-            Soy <strong className="text-red">Javier Pérez Santos</strong>, desarrollador{" "}
-            <strong className="text-red">Full Stack</strong> con experiencia en backend y diseño de{" "}
-            <strong className="text-red">APIs</strong> robustas y eficientes. Trabajo principalmente con{" "}
-            <strong className="text-red">Node.js, Strapi, SQL, Java y React</strong>, aplicando metodologías ágiles como{" "}
-            <strong className="text-red">Scrum</strong> y <strong className="text-red">Kanban</strong>.
-          </p>
-
-          <p className="text-lg mb-6 text-justify">
-            He colaborado en proyectos públicos y privados, integrando tecnologías modernas y optimizando plataformas.
-          </p>
-
-          <p className="text-lg mb-6 text-justify">
-            Me considero resolutivo, con pasión por el aprendizaje continuo y el trabajo en equipo.
-          </p>
+          <div className="space-y-6 text-lg text-justify">
+            <p>
+              Soy <strong className="text-red">Javier Pérez Santos</strong>, desarrollador{" "}
+              <strong className="text-red">Full Stack</strong> con experiencia en backend y diseño de{" "}
+              <strong className="text-red">APIs</strong> robustas y eficientes. Trabajo principalmente con{" "}
+              <strong className="text-red">Node.js, Strapi, SQL, Java y React</strong>, aplicando metodologías ágiles como{" "}
+              <strong className="text-red">Scrum</strong> y <strong className="text-red">Kanban</strong>.
+            </p>
+            <p>
+              He colaborado en proyectos públicos y privados, integrando tecnologías modernas y optimizando plataformas.
+            </p>
+            <p>
+              Me considero resolutivo, con pasión por el aprendizaje continuo y el trabajo en equipo.
+            </p>
+          </div>
 
           {/* Iconos tech */}
-          <div className="absolute left-0 top-[525px] flex flex-wrap gap-6 text-4xl text-dark">
+          <div className="mt-8 flex flex-wrap gap-6 text-4xl text-dark">
             <i className="fab fa-node-js" title="Node.js"></i>
             <i className="fas fa-database" title="SQL"></i>
             <i className="fab fa-react" title="React"></i>
@@ -84,19 +84,19 @@ export default function About() {
         </div>
 
         {/* Galería */}
-        <div className="grid grid-cols-3 gap-3 w-full max-w-2xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {images.map((img, i) => (
             <a
               key={i}
               href={img.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative w-full aspect-square overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform"
+              className="block aspect-square rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform"
             >
               <img
                 src={img.src}
                 alt={img.alt}
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-full object-cover"
               />
             </a>
           ))}
@@ -104,20 +104,21 @@ export default function About() {
       </div>
 
       {/* Modelado 3D */}
-      <div className="max-w-7xl mx-auto mt-32 grid md:grid-cols-2 gap-12 items-start relative">
-        <div className="w-full h-[350px]">
+      <div className="max-w-7xl mx-auto mt-24 grid md:grid-cols-2 gap-12 items-start">
+        {/* Iframe */}
+        <div className="w-full h-[300px] sm:h-[400px]">
           <iframe
             title="Tenkro"
             frameBorder="0"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
+            allow="autoplay; fullscreen"
             allowFullScreen
             className="w-full h-full rounded-lg"
             src="https://sketchfab.com/models/e1bd392f07c9423caf7d819e24f69ac4/embed?autostart=1&ui_theme=dark&ui_infos=0&ui_watermark=0&ui_controls=1&ui_hint=0&ui_settings=0&ui_inspector=0&ui_help=0&ui_vr=0"
-          ></iframe>
+          />
         </div>
 
-        {/* Texto modelado */}
-        <div className="relative">
+        {/* Texto */}
+        <div>
           <h3 className="text-2xl font-bold mb-4 text-dark">Ilustración y Modelado 3D</h3>
           <p className="text-lg text-justify">
             También disfruto del <strong className="text-red">diseño visual</strong>. Me encanta ilustrar personajes y
@@ -127,7 +128,7 @@ export default function About() {
           </p>
 
           {/* Iconos diseño */}
-          <div className="absolute left-0 top-[245px] flex flex-wrap gap-6 text-4xl text-dark mt-8">
+          <div className="mt-8 flex flex-wrap gap-6 text-4xl text-dark">
             <i className="fas fa-palette" title="Diseño gráfico"></i>
             <i className="fas fa-cube" title="Blockbench"></i>
 
