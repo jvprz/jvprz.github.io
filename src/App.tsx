@@ -1,6 +1,11 @@
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+
 import Hero from './sections/Hero';
 import About from './sections/About';
+import Projects from './sections/Projects';
+import Contact from './sections/Contact';
 
 export default function App() {
   return (
@@ -9,7 +14,11 @@ export default function App() {
       <main>
         <Hero />
         <About />
-      </main> 
+        <Projects />
+        <Contact />
+        <ScrollToTop />
+      </main>
+      <Footer />
     </div>
   );
 }
