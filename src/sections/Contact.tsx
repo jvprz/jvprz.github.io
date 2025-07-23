@@ -129,14 +129,14 @@ export default function Contact() {
           <p className="text-lg text-gray-700 mb-4">También puedes descargar mi CV</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="/assets/CV_Javier_Perez.pdf"
+              href="/downloads/CV_Javier_Perez.pdf"
               download
               className="bg-dark text-white px-6 py-2 rounded hover:bg-red transition"
             >
               Descargar CV
             </a>
             <a
-              href="/assets/CV_Javier_Perez_Europass.pdf"
+              href="/downloads/CV_Javier_Perez_Europass.pdf"
               download
               className="bg-dark text-white px-6 py-2 rounded hover:bg-red transition"
             >
