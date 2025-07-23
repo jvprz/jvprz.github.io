@@ -42,7 +42,7 @@ export default function Projects() {
                 </div>
               </div>
               <a href="https://github.com/jvprz/jvprz.github.io" target="_blank" className="mt-6 text-red hover:underline font-medium">
-                Ver código →
+                Ver más →
               </a>
             </div>
           </motion.div>
