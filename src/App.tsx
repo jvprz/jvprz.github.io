@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import CookieBanner from './components/CoockieBanner';
 
 import Hero from './sections/Hero';
 import About from './sections/About';
@@ -18,6 +19,7 @@ export default function App() {
         <Contact />
         <ScrollToTop />
       </main>
+      <CookieBanner />
       <Footer />
     </div>
   );

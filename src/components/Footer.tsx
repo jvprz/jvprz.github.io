@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const socialLinks = [
   { href: "https://github.com/jvprz", label: "GitHub", iconClass: "fab fa-github" },
   { href: "https://www.linkedin.com/in/jvprz/", label: "LinkedIn", iconClass: "fab fa-linkedin" },
@@ -10,10 +12,18 @@ export default function Footer() {
   return (
     <footer className="bg-dark text-white border-t border-dark">
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-6">
-        {/* Nombre */}
-        <h2 className="text-2xl font-black tracking-wide uppercase text-center md:text-left">
-          Javier Pérez
-        </h2>
+        {/* Nombre y enlace política cookies */}
+        <div className="text-center md:text-left space-y-1">
+          <h2 className="text-2xl font-black tracking-wide uppercase">
+            Javier Pérez
+          </h2>
+          <Link
+            to="/politica-de-cookies"
+            className="text-xs text-gray-400 hover:text-red transition"
+          >
+            Política de Cookies
+          </Link>
+        </div>
 
         {/* Redes sociales */}
         <div className="flex flex-wrap justify-center md:justify-end items-center gap-5 text-xl">
