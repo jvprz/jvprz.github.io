@@ -1,0 +1,566 @@
+{
+  "Inicio": {
+    "ca": "Inici",
+    "en": "Home"
+  },
+  "Sobre mí": {
+    "ca": "Sobre mi",
+    "en": "About"
+  },
+  "Proyectos": {
+    "ca": "Projectes",
+    "en": "Projects"
+  },
+  "Contacto": {
+    "ca": "Contacte",
+    "en": "Contact"
+  },
+  "Idioma": {
+    "ca": "Idioma",
+    "en": "Language"
+  },
+  "Abrir menú": {
+    "ca": "Obre el menú",
+    "en": "Open menu"
+  },
+  "Cerrar menú": {
+    "ca": "Tanca el menú",
+    "en": "Close menu"
+  },
+  "Vinaròs, España": {
+    "ca": "Vinaròs, Espanya",
+    "en": "Vinaròs, Spain"
+  },
+  "Ideas claras.": {
+    "ca": "Idees clares.",
+    "en": "Clear ideas."
+  },
+  "Código con": {
+    "ca": "Codi amb",
+    "en": "Code with"
+  },
+  "propósito.": {
+    "ca": "propòsit.",
+    "en": "purpose."
+  },
+  "Desarrollo aplicaciones web y doy forma a proyectos que unen tecnología y creatividad. Del backend a los detalles que hacen que una interfaz funcione.": {
+    "ca": "Desenvolupo aplicacions web i dono forma a projectes que uneixen tecnologia i creativitat. Del backend als detalls que fan que una interfície funcioni.",
+    "en": "I develop web applications and shape projects that bring technology and creativity together. From the backend to the details that make an interface work."
+  },
+  "Explorar proyectos": {
+    "ca": "Explora els projectes",
+    "en": "Explore projects"
+  },
+  "Hablemos": {
+    "ca": "Parlem",
+    "en": "Let’s talk"
+  },
+  "Desarrollo Full Stack.": {
+    "ca": "Desenvolupament Full Stack.",
+    "en": "Full Stack development."
+  },
+  "Mirada creativa.": {
+    "ca": "Mirada creativa.",
+    "en": "Creative perspective."
+  },
+  "Ilustración": {
+    "ca": "Il·lustració",
+    "en": "Illustration"
+  },
+  "Backend sólido. Interfaces cuidadas.": {
+    "ca": "Backend sòlid. Interfícies cuidades.",
+    "en": "Solid backend. Thoughtful interfaces."
+  },
+  "Conoce mi perfil": {
+    "ca": "Coneix el meu perfil",
+    "en": "Meet the developer"
+  },
+  "Perfil profesional": {
+    "ca": "Perfil professional",
+    "en": "Professional profile"
+  },
+  "Soy": {
+    "ca": "Soc",
+    "en": "I’m"
+  },
+  ", desarrollador": {
+    "ca": ", desenvolupador",
+    "en": ", a"
+  },
+  "con experiencia en backend, APIs REST y desarrollo web moderno.": {
+    "ca": "amb experiència en backend, API REST i desenvolupament web modern.",
+    "en": "developer with experience in backend systems, REST APIs and modern web development."
+  },
+  "Trabajo principalmente con": {
+    "ca": "Treballo principalment amb",
+    "en": "I mainly work with"
+  },
+  "Java, Spring Boot, Node.js, React, TypeScript y SQL": {
+    "ca": "Java, Spring Boot, Node.js, React, TypeScript i SQL",
+    "en": "Java, Spring Boot, Node.js, React, TypeScript and SQL"
+  },
+  ", creando soluciones limpias, escalables y fáciles de mantener.": {
+    "ca": ", creant solucions netes, escalables i fàcils de mantenir.",
+    "en": ", building clean, scalable and maintainable solutions."
+  },
+  "Me interesa construir productos útiles, cuidar la experiencia de usuario y seguir creciendo como desarrollador dentro de equipos técnicos bien organizados.": {
+    "ca": "M’interessa construir productes útils, cuidar l’experiència d’usuari i continuar creixent com a desenvolupador dins d’equips tècnics ben organitzats.",
+    "en": "I care about building useful products, creating thoughtful user experiences and growing as a developer within well-organized technical teams."
+  },
+  "Creatividad": {
+    "ca": "Creativitat",
+    "en": "Creativity"
+  },
+  "Ilustración y modelado 3D": {
+    "ca": "Il·lustració i modelatge 3D",
+    "en": "Illustration and 3D modeling"
+  },
+  "También disfruto del": {
+    "ca": "També gaudeixo del",
+    "en": "I also enjoy"
+  },
+  "diseño visual": {
+    "ca": "disseny visual",
+    "en": "visual design"
+  },
+  ". Me gusta ilustrar personajes y crear modelos 3D combinando creatividad y tecnología con herramientas como": {
+    "ca": ". M’agrada il·lustrar personatges i crear models 3D combinant creativitat i tecnologia amb eines com",
+    "en": ". I enjoy illustrating characters and creating 3D models, combining creativity and technology with tools such as"
+  },
+  "e": {
+    "ca": "i",
+    "en": "and"
+  },
+  "02 / Selección de trabajo": {
+    "ca": "02 / Selecció de treballs",
+    "en": "02 / Selected work"
+  },
+  "De la idea": {
+    "ca": "De la idea",
+    "en": "From idea"
+  },
+  "al proyecto.": {
+    "ca": "al projecte.",
+    "en": "to reality."
+  },
+  "Desarrollo web, mundos por construir y colaboraciones donde la técnica y el diseño se encuentran.": {
+    "ca": "Desenvolupament web, mons per construir i col·laboracions on la tècnica i el disseny es troben.",
+    "en": "Web development, worlds to build and collaborations where engineering meets design."
+  },
+  "UN UNIVERSO POR REDESCUBRIR": {
+    "ca": "UN UNIVERS PER REDESCOBRIR",
+    "en": "A UNIVERSE TO REDISCOVER"
+  },
+  "Minecraft mod / Wiki del proyecto": {
+    "ca": "Mod de Minecraft / Wiki del projecte",
+    "en": "Minecraft mod / Project wiki"
+  },
+  "Más proyectos en GitHub": {
+    "ca": "Més projectes a GitHub",
+    "en": "More projects on GitHub"
+  },
+  "Proyecto personal · Minecraft mod": {
+    "ca": "Projecte personal · Mod de Minecraft",
+    "en": "Personal project · Minecraft mod"
+  },
+  "Mi proyecto de mod inspirado en Spectrobes: un espacio donde combino desarrollo, diseño de criaturas y modelado 3D. La wiki reúne la información del proyecto y su universo.": {
+    "ca": "El meu projecte de mod inspirat en Spectrobes: un espai on combino desenvolupament, disseny de criatures i modelatge 3D. La wiki recull la informació del projecte i el seu univers.",
+    "en": "My mod project inspired by Spectrobes: a space where I combine development, creature design and 3D modeling. The wiki brings together information about the project and its universe."
+  },
+  "Explorar la wiki": {
+    "ca": "Explora la wiki",
+    "en": "Explore the wiki"
+  },
+  "Proyecto colaborativo · Aplicación web": {
+    "ca": "Projecte col·laboratiu · Aplicació web",
+    "en": "Team project · Web application"
+  },
+  "Una aplicación para conectar empleados de T-Systems mediante actividades compartidas. Desarrollada en equipo durante el bootcamp Full Stack Java.": {
+    "ca": "Una aplicació per connectar empleats de T-Systems mitjançant activitats compartides. Desenvolupada en equip durant el bootcamp Full Stack Java.",
+    "en": "An application connecting T-Systems employees through shared activities. Built as a team during the Full Stack Java bootcamp."
+  },
+  "Colaboración · Diseño e interfaz": {
+    "ca": "Col·laboració · Disseny i interfície",
+    "en": "Collaboration · Design and interface"
+  },
+  "Participación en el diseño técnico y en elementos de interfaz para la serie de YouTube Mundo Pixelmon 3. Creatividad aplicada a una experiencia de juego compartida.": {
+    "ca": "Participació en el disseny tècnic i en elements d’interfície per a la sèrie de YouTube Mundo Pixelmon 3. Creativitat aplicada a una experiència de joc compartida.",
+    "en": "Contributed technical design and interface elements to the YouTube series Mundo Pixelmon 3. Creativity applied to a shared gaming experience."
+  },
+  "Ver la serie": {
+    "ca": "Mira la sèrie",
+    "en": "Watch the series"
+  },
+  "Portfolio personal": {
+    "ca": "Portafolis personal",
+    "en": "Personal portfolio"
+  },
+  "Proyecto personal · Desarrollo web": {
+    "ca": "Projecte personal · Desenvolupament web",
+    "en": "Personal project · Web development"
+  },
+  "Mi espacio en la web: desarrollo, proyectos e ilustración en una experiencia sencilla, accesible y adaptable a cualquier pantalla.": {
+    "ca": "El meu espai al web: desenvolupament, projectes i il·lustració en una experiència senzilla, accessible i adaptable a qualsevol pantalla.",
+    "en": "My space on the web: development, projects and illustration in a simple, accessible experience that adapts to every screen."
+  },
+  "Ver código": {
+    "ca": "Veure el codi",
+    "en": "View code"
+  },
+  "Modelado 3D": {
+    "ca": "Modelatge 3D",
+    "en": "3D modeling"
+  },
+  "¿Tienes una idea, proyecto o propuesta? Escríbeme.": {
+    "ca": "Tens una idea, un projecte o una proposta? Escriu-me.",
+    "en": "Have an idea, a project or a proposal? Get in touch."
+  },
+  "Desarrollador Full Stack": {
+    "ca": "Desenvolupador Full Stack",
+    "en": "Full Stack Developer"
+  },
+  "Ubicación:": {
+    "ca": "Ubicació:",
+    "en": "Location:"
+  },
+  "Tu nombre": {
+    "ca": "El teu nom",
+    "en": "Your name"
+  },
+  "Tu email": {
+    "ca": "El teu correu",
+    "en": "Your email"
+  },
+  "Tu mensaje": {
+    "ca": "El teu missatge",
+    "en": "Your message"
+  },
+  "Enviar mensaje": {
+    "ca": "Envia el missatge",
+    "en": "Send message"
+  },
+  "También puedes descargar mi CV": {
+    "ca": "També pots descarregar el meu CV",
+    "en": "You can also download my CV"
+  },
+  "Descargar CV": {
+    "ca": "Descarrega el CV",
+    "en": "Download CV"
+  },
+  "Descargar Europass": {
+    "ca": "Descarrega l’Europass",
+    "en": "Download Europass"
+  },
+  "¡Mensaje enviado con éxito!": {
+    "ca": "Missatge enviat correctament!",
+    "en": "Message sent successfully!"
+  },
+  "Error al enviar el mensaje. Inténtalo más tarde.": {
+    "ca": "No s’ha pogut enviar el missatge. Torna-ho a provar més tard.",
+    "en": "Unable to send your message. Please try again later."
+  },
+  "Política de Cookies": {
+    "ca": "Política de galetes",
+    "en": "Cookie policy"
+  },
+  "Usamos cookies para mejorar tu experiencia.": {
+    "ca": "Fem servir galetes per millorar la teva experiència.",
+    "en": "We use cookies to improve your experience."
+  },
+  "Más información": {
+    "ca": "Més informació",
+    "en": "Learn more"
+  },
+  "Rechazar": {
+    "ca": "Rebutja",
+    "en": "Decline"
+  },
+  "Aceptar": {
+    "ca": "Accepta",
+    "en": "Accept"
+  },
+  "← Volver": {
+    "ca": "← Torna",
+    "en": "← Back"
+  },
+  "Volver arriba": {
+    "ca": "Torna a dalt",
+    "en": "Back to top"
+  },
+  "Página no encontrada": {
+    "ca": "Pàgina no trobada",
+    "en": "Page not found"
+  },
+  "¿Qué son las cookies?": {
+    "ca": "Què són les galetes?",
+    "en": "What are cookies?"
+  },
+  "Las cookies son pequeños archivos de texto que los sitios web almacenan en el dispositivo del usuario cuando visita una página. Estas permiten que el sitio recuerde información sobre la visita, como preferencias y configuraciones, lo que mejora la experiencia de navegación y facilita el acceso a ciertas funcionalidades.": {
+    "ca": "Les galetes són petits fitxers de text que els llocs web emmagatzemen al dispositiu de l’usuari quan visita una pàgina. Permeten recordar informació de la visita, com ara preferències i configuracions, i faciliten la navegació i l’accés a certes funcionalitats.",
+    "en": "Cookies are small text files that websites store on your device when you visit a page. They remember information about your visit, such as preferences and settings, to improve navigation and enable certain features."
+  },
+  "Aunque las cookies son ampliamente utilizadas para mejorar el funcionamiento de los sitios web, también pueden ser utilizadas para recopilar información sobre el comportamiento del usuario, por lo que su uso está regulado para proteger la privacidad.": {
+    "ca": "Les galetes també poden recopilar informació sobre el comportament de l’usuari. Per això, el seu ús està regulat per protegir la privacitat.",
+    "en": "Cookies can also collect information about user behavior. Their use is therefore regulated to protect privacy."
+  },
+  "¿Qué cookies usamos?": {
+    "ca": "Quines galetes fem servir?",
+    "en": "Which cookies do we use?"
+  },
+  "Cookies necesarias:": {
+    "ca": "Galetes necessàries:",
+    "en": "Necessary cookies:"
+  },
+  "Estas cookies son esenciales para el correcto funcionamiento del sitio web, permitiendo la navegación y el uso de sus funcionalidades básicas.": {
+    "ca": "Aquestes galetes són essencials perquè el lloc web funcioni correctament i permeten navegar i utilitzar-ne les funcionalitats bàsiques.",
+    "en": "These cookies are essential for the website to function correctly, enabling navigation and basic features."
+  },
+  "Cookies de análisis:": {
+    "ca": "Galetes d’anàlisi:",
+    "en": "Analytics cookies:"
+  },
+  "Utilizamos Google Analytics para recopilar información anónima sobre cómo los visitantes interactúan con nuestra web. Esta información nos ayuda a mejorar el diseño, el contenido y la experiencia general del usuario.": {
+    "ca": "Fem servir Google Analytics per recopilar informació anònima sobre com els visitants interactuen amb el web i millorar-ne el disseny, el contingut i l’experiència d’usuari.",
+    "en": "We use Google Analytics to collect anonymous information about how visitors interact with our website, helping us improve its design, content and user experience."
+  },
+  "Cookies de preferencias:": {
+    "ca": "Galetes de preferències:",
+    "en": "Preference cookies:"
+  },
+  "Estas cookies permiten recordar las elecciones del usuario, como idioma o configuración de visualización, para personalizar su experiencia en futuras visitas.": {
+    "ca": "Aquestes galetes recorden les opcions de l’usuari, com ara l’idioma o la configuració de visualització, per personalitzar visites futures.",
+    "en": "These cookies remember user choices, such as language or display settings, to personalize future visits."
+  },
+  "Gestión y control de cookies": {
+    "ca": "Gestió i control de galetes",
+    "en": "Managing cookies"
+  },
+  "El usuario tiene el derecho de decidir si acepta o rechaza el uso de cookies, así como la posibilidad de eliminarlas en cualquier momento. Esto se puede gestionar desde la configuración del navegador o a través de opciones disponibles en el sitio web, como el banner de consentimiento.": {
+    "ca": "L’usuari pot acceptar o rebutjar les galetes i eliminar-les en qualsevol moment des de la configuració del navegador o les opcions disponibles al web, com el bàner de consentiment.",
+    "en": "You can accept or decline cookies and delete them at any time through your browser settings or the options available on this website, such as the consent banner."
+  },
+  "Es importante mencionar que bloquear ciertas cookies puede afectar el funcionamiento óptimo del sitio o limitar algunas funcionalidades.": {
+    "ca": "Bloquejar determinades galetes pot afectar el funcionament del lloc o limitar algunes funcionalitats.",
+    "en": "Blocking certain cookies may affect how the site works or limit some features."
+  },
+  "Para cualquier duda, consulta o solicitud relacionada con la política de cookies o el tratamiento de datos personales, puedes ponerte en contacto conmigo a través del formulario de contacto disponible en esta web.": {
+    "ca": "Per a qualsevol dubte o sol·licitud sobre la política de galetes o el tractament de dades personals, pots contactar amb mi mitjançant el formulari del web.",
+    "en": "For questions or requests about this cookie policy or personal data processing, please get in touch using the contact form on this website."
+  },
+  "Dibujo de Iron Man": {
+    "ca": "Dibuix de Iron Man",
+    "en": "Drawing of Iron Man"
+  },
+  "Dibujo de Ahsoka Tano": {
+    "ca": "Dibuix de Ahsoka Tano",
+    "en": "Drawing of Ahsoka Tano"
+  },
+  "Dibujo de Thor": {
+    "ca": "Dibuix de Thor",
+    "en": "Drawing of Thor"
+  },
+  "Dibujo de Blue": {
+    "ca": "Dibuix de Blue",
+    "en": "Drawing of Blue"
+  },
+  "Dibujo de Goku": {
+    "ca": "Dibuix de Goku",
+    "en": "Drawing of Goku"
+  },
+  "Dibujo de Rhaenyra Targaryen": {
+    "ca": "Dibuix de Rhaenyra Targaryen",
+    "en": "Drawing of Rhaenyra Targaryen"
+  },
+  "Dibujo de Gohan y Goku": {
+    "ca": "Dibuix de Gohan i Goku",
+    "en": "Drawing of Gohan and Goku"
+  },
+  "Dibujo del Caballero Luna": {
+    "ca": "Dibuix del Cavaller Lluna",
+    "en": "Drawing of Moon Knight"
+  },
+  "Premiere Deadpool y Lobezno": {
+    "ca": "Estrena de Deadpool i Wolverine",
+    "en": "Deadpool & Wolverine premiere"
+  },
+  "Tecnologías": {
+    "ca": "Tecnologies",
+    "en": "Technologies"
+  },
+  "Vista del proyecto": {
+    "ca": "Vista del projecte",
+    "en": "Project preview:"
+  },
+  "Email:": {
+    "ca": "Correu:",
+    "en": "Email:"
+  },
+  "01 / Proyectos": {
+    "ca": "01 / Projectes",
+    "en": "01 / Projects"
+  },
+  "02 / Perfil": {
+    "ca": "02 / Perfil",
+    "en": "02 / Profile"
+  },
+  "Desarrollo aplicaciones web y proyectos donde la tecnología y el diseño se encuentran.": {
+    "ca": "Desenvolupo aplicacions web i projectes on la tecnologia i el disseny es troben.",
+    "en": "I build web applications and projects where technology meets design."
+  },
+  "Trabajo entre el backend y la interfaz, con especial interés en las APIs REST y las aplicaciones web fáciles de mantener.": {
+    "ca": "Treballo entre el backend i la interfície, amb especial interès en les API REST i les aplicacions web fàcils de mantenir.",
+    "en": "I work across backend systems and interfaces, with a particular interest in REST APIs and maintainable web applications."
+  },
+  "La ilustración y el modelado 3D completan mi forma de crear: me gusta entender tanto cómo funciona un producto como lo que transmite.": {
+    "ca": "La il·lustració i el modelatge 3D completen la meva manera de crear: m’agrada entendre tant com funciona un producte com el que transmet.",
+    "en": "Illustration and 3D modeling complement how I create: I care about both how a product works and what it communicates."
+  },
+  "Ver ilustraciones": {
+    "ca": "Veure il·lustracions",
+    "en": "View illustrations"
+  },
+  "Cerrar modelo 3D": {
+    "ca": "Tanca el model 3D",
+    "en": "Close 3D model"
+  },
+  "Explorar modelo 3D": {
+    "ca": "Explora el model 3D",
+    "en": "Explore 3D model"
+  },
+  "Qué encontrarás en la wiki": {
+    "ca": "Què trobaràs a la wiki",
+    "en": "Inside the wiki"
+  },
+  "Guía del explorador": {
+    "ca": "Guia de l’explorador",
+    "en": "Explorer’s guide"
+  },
+  "Fósiles y exploración": {
+    "ca": "Fòssils i exploració",
+    "en": "Fossils and exploration"
+  },
+  "Cómo encontrar fósiles y empezar a descubrir las criaturas del mod.": {
+    "ca": "Com trobar fòssils i començar a descobrir les criatures del mod.",
+    "en": "How to find fossils and start discovering the mod’s creatures."
+  },
+  "Incubadora y despertar": {
+    "ca": "Incubadora i despertar",
+    "en": "Incubator and awakening"
+  },
+  "Equipo, recetas y pasos para despertar a tus compañeros a partir de fósiles.": {
+    "ca": "Equip, receptes i passos per despertar els teus companys a partir de fòssils.",
+    "en": "Equipment, recipes and steps to awaken your companions from fossils."
+  },
+  "Prizmod y escaneo": {
+    "ca": "Prizmod i escaneig",
+    "en": "Prizmod and scanning"
+  },
+  "Gestiona tu colección y utiliza a tus compañeros para escanear el entorno.": {
+    "ca": "Gestiona la teva col·lecció i utilitza els teus companys per escanejar l’entorn.",
+    "en": "Manage your collection and use your companions to scan your surroundings."
+  },
+  "Especies y minerales": {
+    "ca": "Espècies i minerals",
+    "en": "Species and minerals"
+  },
+  "Consulta las seis especies infantiles disponibles, sus estadísticas y la alimentación con minerales.": {
+    "ca": "Consulta les sis espècies infantils disponibles, les seves estadístiques i l’alimentació amb minerals.",
+    "en": "Explore the six available child species, their stats and mineral feeding."
+  },
+  "Krawl y vórtices": {
+    "ca": "Krawl i vòrtexs",
+    "en": "Krawl and vortices"
+  },
+  "Conoce a los enemigos y los encuentros en pequeños vórtices, con progreso y recompensas.": {
+    "ca": "Coneix els enemics i les trobades en petits vòrtexs, amb progrés i recompenses.",
+    "en": "Learn about enemies and small vortex encounters with progress and rewards."
+  },
+  "Instalación y ayuda": {
+    "ca": "Instal·lació i ajuda",
+    "en": "Setup and help"
+  },
+  "Requisitos, primeros pasos, crafteos, avances y soluciones a problemas habituales.": {
+    "ca": "Requisits, primers passos, receptes, avenços i solucions als problemes habituals.",
+    "en": "Requirements, getting started, crafting, advancements and troubleshooting."
+  },
+  "En beta: la evolución, el análisis, la limpieza y el combate de equipos siguen en desarrollo.": {
+    "ca": "En beta: l’evolució, l’anàlisi, la neteja i el combat d’equips continuen en desenvolupament.",
+    "en": "In beta: evolution, analysis, cleaning and team combat are still in development."
+  },
+  "Abrir la wiki completa": {
+    "ca": "Obre la wiki completa",
+    "en": "Open the full wiki"
+  },
+  "Desarrollador Full Stack con foco en backend. Trabajo con APIs, datos y, actualmente, comunicación en tiempo real e inteligencia artificial.": {
+    "ca": "Desenvolupador Full Stack amb focus en backend. Treballo amb API, dades i, actualment, comunicació en temps real i intel·ligència artificial.",
+    "en": "Full Stack developer focused on backend systems. I work with APIs, data and, currently, real-time communication and artificial intelligence."
+  },
+  "Datos y APIs": {
+    "ca": "Dades i API",
+    "en": "Data and APIs"
+  },
+  "Entorno": {
+    "ca": "Entorn",
+    "en": "Workflow"
+  },
+  "Formato Europass": {
+    "ca": "Format Europass",
+    "en": "Europass format"
+  },
+  "Experiencia": {
+    "ca": "Experiència",
+    "en": "Experience"
+  },
+  "Formación": {
+    "ca": "Formació",
+    "en": "Education"
+  },
+  "Actualidad": {
+    "ca": "Actualitat",
+    "en": "Present"
+  },
+  "Desarrollador de software": {
+    "ca": "Desenvolupador de programari",
+    "en": "Software Developer"
+  },
+  "Desarrollador de software junior": {
+    "ca": "Desenvolupador de programari júnior",
+    "en": "Junior Software Developer"
+  },
+  "SDK propietario, videollamadas y asistentes de IA en tiempo real.": {
+    "ca": "SDK propi, videotrucades i assistents d’IA en temps real.",
+    "en": "Proprietary SDK, video calls and real-time AI assistants."
+  },
+  "Backend con Node.js y Strapi, APIs y optimización de MySQL y MongoDB.": {
+    "ca": "Backend amb Node.js i Strapi, API i optimització de MySQL i MongoDB.",
+    "en": "Backend development with Node.js and Strapi, APIs, and MySQL and MongoDB optimization."
+  },
+  "Desarrollo y mantenimiento de PLACSP con Java y despliegues en JBoss.": {
+    "ca": "Desenvolupament i manteniment de PLACSP amb Java i desplegaments a JBoss.",
+    "en": "Java development and maintenance for PLACSP, with deployments on JBoss."
+  },
+  "Curso Full Stack Java": {
+    "ca": "Curs Full Stack Java",
+    "en": "Full Stack Java course"
+  },
+  "CFGS Desarrollo de Aplicaciones Web": {
+    "ca": "CFGS Desenvolupament d’Aplicacions Web",
+    "en": "Advanced vocational qualification in Web Application Development"
+  },
+  "Perfil": {
+    "ca": "Perfil",
+    "en": "Profile"
+  },
+  "Trayectoria": {
+    "ca": "Trajectòria",
+    "en": "Career"
+  },
+  "Enviando…": {
+    "ca": "Enviant…",
+    "en": "Sending…"
+  },
+  "Volver a la página principal": {
+    "ca": "Tornar a la pàgina principal",
+    "en": "Back to homepage"
+  }
+}

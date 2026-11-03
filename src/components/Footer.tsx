@@ -1,46 +1,15 @@
-import { Link } from "react-router-dom";
-
-const socialLinks = [
-  { href: "https://github.com/jvprz", label: "GitHub", iconClass: "fab fa-github" },
-  { href: "https://www.linkedin.com/in/jvprz/", label: "LinkedIn", iconClass: "fab fa-linkedin" },
-  { href: "https://x.com/jvprz__", label: "Twitter (X)", iconClass: "fab fa-x-twitter" },
-  { href: "https://www.instagram.com/jvprz_", label: "Instagram", iconClass: "fab fa-instagram" },
-  { href: "https://discord.com/users/351742989518766090", label: "Discord", iconClass: "fab fa-discord" },
-];
-
+import { Link } from 'react-router-dom';
+import { Mail } from 'lucide-react';
+import { BrandIcon } from './BrandIcon';
+import BrandName from './BrandName';
+import { usePreferences } from '../preferences';
 export default function Footer() {
-  return (
-    <footer className="bg-dark text-white border-t border-dark">
-      <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-6">
-        {/* Nombre y enlace política cookies */}
-        <div className="text-center md:text-left space-y-1">
-          <h2 className="text-2xl font-black tracking-wide uppercase">
-            Javier Pérez
-          </h2>
-          <Link
-            to="/politica-de-cookies"
-            className="text-xs text-gray-400 hover:text-red transition"
-          >
-            Política de Cookies
-          </Link>
-        </div>
-
-        {/* Redes sociales */}
-        <div className="flex flex-wrap justify-center md:justify-end items-center gap-5 text-xl">
-          {socialLinks.map(({ href, label, iconClass }) => (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={label}
-              className="transition-colors hover:text-red"
-            >
-              <i className={iconClass}></i>
-            </a>
-          ))}
-        </div>
-      </div>
-    </footer>
-  );
+  const { t } = usePreferences();
+  return <footer className="site-footer">
+    <div className="footer-main">
+      <a className="footer-identity" href="/#hero" aria-label="Javier Pérez"><BrandName compact /><span>Javier Pérez<small>Full Stack Developer</small></span></a>
+      <div className="footer-links"><a href="https://github.com/jvprz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><BrandIcon name="GitHub" /></a><a href="https://www.linkedin.com/in/jvprz/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><BrandIcon name="LinkedIn" /></a><a href="mailto:javierpsantos99@gmail.com" aria-label="Email" title="Email"><Mail size={20} strokeWidth={1.5} /></a></div>
+    </div>
+    <div className="footer-base"><span>© {new Date().getFullYear()} Javier Pérez</span><span className="footer-kana" aria-hidden="true">技術と創造</span><Link to="/politica-de-cookies">{t('Política de Cookies')}</Link></div>
+  </footer>;
 }

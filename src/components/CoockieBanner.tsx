@@ -1,14 +1,16 @@
+import { usePreferences } from "../preferences";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const COOKIE_NAME = "cookie_consent";
 
 export default function CookieBanner() {
+  const { t } = usePreferences();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const consent = localStorage.getItem(COOKIE_NAME);
-    if (consent !== "accepted") {
+    if (consent !== "accepted" && consent !== "declined") {
       setVisible(true);
     }
   }, []);
@@ -26,27 +28,9 @@ export default function CookieBanner() {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-dark/70 backdrop-blur-md text-white px-6 py-4 flex items-center justify-between gap-4 z-50">
-      <p className="text-sm md:text-base max-w-[70%] whitespace-nowrap overflow-x-auto">
-        Usamos cookies para mejorar tu experiencia y analizar el tráfico.{" "}
-        <Link to="/politica-de-cookies" className="underline hover:text-red">
-          Más información
-        </Link>
-      </p>
-      <div className="flex gap-4">
-        <button
-          onClick={declineCookies}
-          className="text-white hover:text-red focus:outline-none transition"
-        >
-          Rechazar
-        </button>
-        <button
-          onClick={acceptCookies}
-          className="bg-red px-4 py-2 rounded hover:bg-red-700 transition"
-        >
-          Aceptar
-        </button>
-      </div>
-    </div>
+    <aside className="cookie-notice" aria-label={t('Política de Cookies')}>
+      <div className="cookie-notice-copy"><span className="section-kana" aria-hidden="true">プライバシー</span><p>{t(" Usamos cookies para mejorar tu experiencia.")} <Link to="/politica-de-cookies">{t(" Más información ")}</Link></p></div>
+      <div className="cookie-notice-actions"><button onClick={declineCookies} className="cookie-decline">{t(" Rechazar ")}</button><button onClick={acceptCookies} className="btn-primary">{t(" Aceptar ")}</button></div>
+    </aside>
   );
 }

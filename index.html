@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JAVIER PÉREZ</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Javier Pérez Santos. Desarrollo Full Stack, aplicaciones web, ilustración y proyectos como Spectrobes Reforged." />
+  <title>Javier Pérez</title>
 
-    <!-- Fuente Inter -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
+  <script>
+    try {
+      const savedLanguage = localStorage.getItem('jps-language');
+      document.documentElement.lang = ['es', 'ca', 'en'].includes(savedLanguage) ? savedLanguage : 'es';
+    } catch { /* Use the default language if storage is unavailable. */ }
+  </script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-identity.png?v=1" />
 
-    <!-- Devicon (tecnologías) -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-    />
+  <!-- Fuente Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome (íconos sociales o generales) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+  <!-- Devicon (tecnologías) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CY5LDWCEFN"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Font Awesome (íconos sociales o generales) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-      gtag('config', 'G-CY5LDWCEFN');
-    </script>
-  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CY5LDWCEFN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  <body class="bg-white font-sans">
-    <div id="root"></div>
+    gtag('config', 'G-CY5LDWCEFN');
+  </script>
+</head>
 
-    <!-- Entrada de React con Vite -->
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<body class="font-sans">
+  <div id="root"></div>
+
+  <!-- Entrada de React con Vite -->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
+
+
+
+
+
+

@@ -1,30 +1,17 @@
-import { useEffect, useState } from "react";
-
+import { ArrowUp } from 'lucide-react';
+import { usePreferences } from '../preferences';
+import { useEffect, useState } from 'react';
 export default function ScrollToTop() {
+  const { t } = usePreferences();
   const [visible, setVisible] = useState(false);
-
   useEffect(() => {
-    const handleScroll = () => setVisible(window.scrollY > 10);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    const update = () => setVisible(window.scrollY > 180);
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    return () => window.removeEventListener('scroll', update);
   }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  return (
-    <button
-      onClick={scrollToTop}
-      aria-label="Volver arriba"
-      title="Volver arriba"
-      className={`fixed bottom-6 right-6 z-50 w-12 h-12 rounded-lg bg-red text-white flex items-center justify-center shadow-md transition-transform duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 ${
-        visible
-          ? "opacity-100 translate-y-0"
-          : "opacity-0 translate-y-4 pointer-events-none"
-      }`}
-    >
-      <i className="fas fa-arrow-up"></i>
-    </button>
-  );
+  return <button type="button" className={`back-to-top${visible ? ' is-visible' : ''}`} aria-label={t('Volver arriba')} title={t('Volver arriba')} tabIndex={visible ? 0 : -1} aria-hidden={!visible} onClick={() => {
+    window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    document.querySelector<HTMLButtonElement>('.brand-button')?.focus({ preventScroll: true });
+  }}><ArrowUp size={19} strokeWidth={1.6} aria-hidden="true" /></button>;
 }

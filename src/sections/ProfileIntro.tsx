@@ -1,0 +1,12 @@
+import { ArrowDownToLine } from 'lucide-react';
+import { IconBadge } from '../components/BrandIcon';
+import { usePreferences } from '../preferences';
+import cv from '../downloads/CV_Javier_Perez.pdf';
+import europass from '../downloads/CV_Javier_Perez_Europass.pdf';
+export default function ProfileIntro() {
+  const { t } = usePreferences();
+  return <section id="about" className="profile-intro" aria-labelledby="about-title">
+    <div><h2 className="section-title" id="about-title"><span className="section-kana" aria-hidden="true">自己紹介</span>{t('Sobre mí')}</h2><div className="intro-downloads"><a className="text-link" href={cv} download>{t('Descargar CV')}<ArrowDownToLine size={15} /></a><a className="resume-europass" href={europass} download>Europass<ArrowDownToLine size={12} /></a></div></div>
+    <div className="intro-copy"><p>{t('Desarrollador Full Stack con foco en backend. Trabajo con APIs, datos y, actualmente, comunicación en tiempo real e inteligencia artificial.')}</p><div className="resume-primary-stack" role="group" aria-label={t('Tecnologías')}>{['Node.js', 'Java', 'Spring Boot', 'React', 'MySQL', 'Docker'].map(name => <IconBadge key={name} name={name} />)}</div></div>
+  </section>;
+}
