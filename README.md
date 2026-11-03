@@ -1,69 +1,38 @@
-# React + TypeScript + Vite
+# Personal Portfolio — React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built to showcase my skills, projects, and experience as a Full Stack Developer. The site is designed with modern web technologies to provide a fast, responsive, and smooth user experience.
 
-Currently, two official plugins are available:
+## What it is
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A clean, minimalistic, and fully responsive portfolio website.
+- Showcases sections like Home, About Me, Projects, Contact, Cookie Policy, and a custom 404 page.
+- Includes interactive features such as modals, smooth scrolling, and animated transitions.
 
-## Expanding the ESLint configuration
+## What it contains
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Homepage with a hero section** featuring animated 3D renders and social links.
+- **About section** with a tech stack overview, Instagram gallery, and 3D model embedding.
+- **Projects section** displaying personal and collaborative projects with detailed descriptions and tech tags.
+- **Contact form** integrated with Formspree for sending messages.
+- **Cookie consent banner** compliant with privacy regulations, with links to a dedicated Cookie Policy page.
+- **Error 404 page** with custom design and navigation back to home.
+- **Dark and light mode** styling with Tailwind CSS utilities.
+- Smooth user interface enhancements using Framer Motion animations.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## How it’s built
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **React 18** with functional components and hooks for UI structure.
+- **TypeScript** for type safety and improved developer experience.
+- **Vite** as the build tool for blazing-fast development and optimized production builds.
+- **Tailwind CSS** for utility-first styling and responsive design.
+- **Framer Motion** for animation and transition effects.
+- **React Router** for SPA navigation and multiple page routes.
+- **ESLint and Prettier** configured for consistent code quality and formatting.
+- **Formspree** to handle contact form submissions without a backend.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This portfolio serves as both a professional showcase and a playground for experimenting with modern frontend development techniques.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Feel free to explore, contribute, or get inspired!
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
