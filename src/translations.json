@@ -770,5 +770,37 @@
   "visualizaciones acumuladas en YouTube.": {
     "ca": "visualitzacions acumulades a YouTube.",
     "en": "cumulative views on YouTube."
+  },
+  "Código en GitHub": {
+    "ca": "Codi a GitHub",
+    "en": "Code on GitHub"
+  },
+  "Mi espacio para presentar experiencia y proyectos con una identidad propia. Desarrollado con React, TypeScript y Tailwind CSS, combina una estética japonesa con navegación accesible, tres idiomas y diseño responsive.": {
+    "ca": "El meu espai per presentar experiència i projectes amb una identitat pròpia. Desenvolupat amb React, TypeScript i Tailwind CSS, combina una estètica japonesa amb navegació accessible, tres idiomes i disseny responsive.",
+    "en": "My space to present experience and projects with a personal identity. Built with React, TypeScript and Tailwind CSS, it combines a Japanese-inspired aesthetic with accessible navigation, three languages and responsive design."
+  },
+  "Carrusel": {
+    "ca": "Carrusel",
+    "en": "Carousel"
+  },
+  "Más proyectos": {
+    "ca": "Més projectes",
+    "en": "More projects"
+  },
+  "Pausar carrusel": {
+    "ca": "Pausar el carrusel",
+    "en": "Pause carousel"
+  },
+  "Reanudar carrusel": {
+    "ca": "Reprendre el carrusel",
+    "en": "Resume carousel"
+  },
+  "Proyectos anteriores": {
+    "ca": "Projectes anteriors",
+    "en": "Previous projects"
+  },
+  "Proyectos siguientes": {
+    "ca": "Projectes següents",
+    "en": "Next projects"
   }
 }

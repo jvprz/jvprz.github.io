@@ -408,3 +408,19 @@ header.fixed{background:var(--color-bg);border-bottom:1px solid var(--color-bord
 @media(prefers-reduced-motion:reduce){.disclosure-chevron{transition:none}}
 
 .project-reach-value{color:var(--color-red)}
+
+
+/* The secondary projects share one stable, horizontally animated row. */
+.project-carousel{grid-column:1/-1;min-width:0}
+.project-carousel-viewport{overflow:hidden;padding:5px;margin:-5px}
+.project-carousel-track{display:flex;gap:32px;align-items:stretch;transition:transform .65s cubic-bezier(.22,1,.36,1);will-change:transform}
+.project-carousel-slide{flex:0 0 calc(50% - 16px);min-width:0;display:flex}
+.project-carousel-slide>.project-card{width:100%;display:flex;flex-direction:column}
+.project-carousel-controls{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:24px;padding-top:14px;border-top:1px solid var(--color-border)}
+.project-carousel-status{font:10px ui-monospace,monospace;letter-spacing:.1em;color:var(--color-muted)}
+.project-carousel-buttons{display:flex;gap:12px;align-items:center}
+.project-carousel-buttons button{display:flex;align-items:center;justify-content:center;width:36px;height:36px;color:var(--color-red);transition:color .2s}
+.project-carousel-buttons button:hover{color:var(--color-text)}
+.project-carousel-buttons button:focus-visible{outline:2px solid var(--color-red);outline-offset:2px}
+@media(max-width:767px){.project-carousel-slide{flex-basis:100%}.project-carousel-controls{margin-top:20px}}
+@media(prefers-reduced-motion:reduce){.project-carousel-track{transition:none}.project-carousel-buttons button{transition:none}}
