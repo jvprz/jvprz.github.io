@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Javier Pérez Santos. Desarrollo Full Stack, aplicaciones web, ilustración y proyectos como Spectrobes Reforged." />
+  <title>Javier Pérez</title>
+
+  <script>
+    try {
+      const savedLanguage = localStorage.getItem('jps-language');
+      document.documentElement.lang = ['es', 'ca', 'en'].includes(savedLanguage) ? savedLanguage : 'es';
+    } catch { /* Use the default language if storage is unavailable. */ }
+  </script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-identity.png?v=1" />
+
+  <!-- Fuente Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Devicon (tecnologías) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
+  <!-- Font Awesome (íconos sociales o generales) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CY5LDWCEFN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CY5LDWCEFN');
+  </script>
+  <script type="module" crossorigin src="/assets/index-DHPwmObV.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BiGn5wB7.css">
+</head>
+
+<body class="font-sans">
+  <div id="root"></div>
+
+  <!-- Entrada de React con Vite -->
+</body>
+
+</html>

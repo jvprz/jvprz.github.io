@@ -318,3 +318,11 @@ header.fixed{background:var(--color-bg);border-bottom:1px solid var(--color-bord
 .back-to-top{color:var(--color-red);border:0;background:#101212;transition:opacity .2s,background .2s,color .2s}
 .back-to-top.is-visible{opacity:1}.back-to-top:hover{color:#ff5960}.back-to-top:focus-visible{outline:2px solid var(--color-red);outline-offset:4px}
 @media(prefers-reduced-motion:reduce){.back-to-top{transition:none}}
+
+.hero-scene{transform:scaleX(-1)}
+
+/* Improve text contrast over the bright monitor without obscuring the right side. */
+.hero-shade{background:linear-gradient(90deg,rgba(8,10,10,.66) 0%,rgba(8,10,10,.48) 35%,rgba(8,10,10,.14) 67%,transparent 90%),linear-gradient(0deg,rgba(8,10,10,.72) 0%,rgba(8,10,10,.28) 33%,transparent 70%)}
+.hero-introduction h1{text-shadow:0 2px 18px rgba(0,0,0,.55)}
+.hero-profession{text-shadow:0 1px 8px rgba(0,0,0,.8)}
+@media(max-width:767px){.hero-shade{background:linear-gradient(90deg,rgba(8,10,10,.65),rgba(8,10,10,.2)),linear-gradient(0deg,rgba(8,10,10,.85),rgba(8,10,10,.25) 65%,transparent)}}

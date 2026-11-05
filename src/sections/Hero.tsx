@@ -1,5 +1,5 @@
 import BrandName from "../components/BrandName";
-import image from '../assets/images/developer-workspace-white-lamp.png';
+import image from '../assets/images/developer-photo-keyboard.png';
 import { ArrowUpRight } from 'lucide-react';
 import { usePreferences } from '../preferences';
 export default function Hero() {
