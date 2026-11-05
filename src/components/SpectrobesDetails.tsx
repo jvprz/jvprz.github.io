@@ -1,4 +1,5 @@
-import { ArrowUpRight, ChevronDown } from 'lucide-react';
+import Disclosure from './Disclosure';
+import { ArrowUpRight } from 'lucide-react';
 import { usePreferences } from '../preferences';
 const topics = [
   ['Fósiles y exploración', 'Cómo encontrar fósiles y empezar a descubrir las criaturas del mod.'],
@@ -10,12 +11,11 @@ const topics = [
 ];
 export default function SpectrobesDetails() {
   const { t } = usePreferences();
-  return <details className="spectrobes-details">
-    <summary><span className="wiki-summary-label">{t('Explorar la wiki')}</span><ChevronDown size={18} className="wiki-chevron" aria-hidden="true" /></summary>
+  return <Disclosure className="spectrobes-details" label={t('Explorar la wiki')}>
     <div className="wiki-content">
       <div className="wiki-intro"><p className="ui-label">{t('Guía del explorador')}</p><span className="wiki-version">Minecraft 1.21.1 / NeoForge</span></div>
       <div className="wiki-topics">{topics.map(([title, description]) => <div className="wiki-topic" key={title}><div><h4>{t(title)}</h4><p>{t(description)}</p></div></div>)}</div>
       <div className="wiki-bottom"><p>{t('En beta: la evolución, el análisis, la limpieza y el combate de equipos siguen en desarrollo.')}</p><div className="wiki-actions"><a className="text-link" href="https://jvprz.github.io/SpectrobesReforged/" target="_blank" rel="noopener noreferrer">{t('Abrir la wiki completa')}<ArrowUpRight size={16} /></a><a className="text-link" href="https://www.curseforge.com/minecraft/mc-mods/spectrobes-reforged" target="_blank" rel="noopener noreferrer">CurseForge<ArrowUpRight size={16} /></a></div></div>
     </div>
-  </details>;
+  </Disclosure>;
 }

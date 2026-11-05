@@ -562,5 +562,213 @@
   "Volver a la página principal": {
     "ca": "Tornar a la pàgina principal",
     "en": "Back to homepage"
+  },
+  "Desarrollador Full Stack · Especializado en Backend": {
+    "ca": "Desenvolupador Full Stack · Especialitzat en Backend",
+    "en": "Full Stack Developer · Backend Focus"
+  },
+  "Backend, comunicación en tiempo real e inteligencia artificial.": {
+    "ca": "Backend, comunicació en temps real i intel·ligència artificial.",
+    "en": "Backend, real-time communication and artificial intelligence."
+  },
+  "Soy desarrollador Full Stack especializado en backend, con más de 3 años de experiencia profesional construyendo aplicaciones y soluciones de software.": {
+    "ca": "Soc desenvolupador Full Stack especialitzat en backend, amb més de 3 anys d’experiència professional construint aplicacions i solucions de programari.",
+    "en": "I’m a Full Stack developer focused on backend, with over 3 years of professional experience building applications and software solutions."
+  },
+  "He pasado de aplicaciones empresariales con Java al desarrollo backend con JavaScript, Node.js, APIs, MySQL y MongoDB. Actualmente trabajo en comunicación en tiempo real e integración de IA, con sistemas de videollamadas y asistentes conversacionales.": {
+    "ca": "He passat d’aplicacions empresarials amb Java al desenvolupament backend amb JavaScript, Node.js, APIs, MySQL i MongoDB. Actualment treballo en comunicació en temps real i integració d’IA, amb sistemes de videotrucades i assistents conversacionals.",
+    "en": "My work has evolved from enterprise Java applications to backend development with JavaScript, Node.js, APIs, MySQL and MongoDB. I currently build real-time communication and AI integrations, including video calls and conversational assistants."
+  },
+  "Investigo tecnologías, evalúo alternativas y propongo soluciones. Me implico desde la necesidad inicial hasta la implementación y las mejoras a partir del feedback.": {
+    "ca": "Investigo tecnologies, avaluo alternatives i proposo solucions. M’implico des de la necessitat inicial fins a la implementació i les millores a partir del feedback.",
+    "en": "I research technologies, evaluate alternatives and propose solutions, taking features from the initial need through implementation and improvements based on feedback."
+  },
+  "Especialización": {
+    "ca": "Especialització",
+    "en": "Specialization"
+  },
+  "Experiencia profesional · Kubysoft": {
+    "ca": "Experiència professional · Kubysoft",
+    "en": "Professional experience · Kubysoft"
+  },
+  "Backend y APIs": {
+    "ca": "Backend i APIs",
+    "en": "Backend and APIs"
+  },
+  "Desarrollo e integración de APIs y servicios para conectar aplicaciones, trabajar con datos y evolucionar funcionalidades de producto.": {
+    "ca": "Desenvolupament i integració d’APIs i serveis per connectar aplicacions, treballar amb dades i evolucionar funcionalitats de producte.",
+    "en": "Developing and integrating APIs and services to connect applications, work with data and evolve product features."
+  },
+  "Comunicación en tiempo real": {
+    "ca": "Comunicació en temps real",
+    "en": "Real-time communication"
+  },
+  "Desarrollo de un sistema interno de videollamadas con transmisión de audio, compartición de pantalla y transcripción automática, integrando distintos servicios.": {
+    "ca": "Desenvolupament d’un sistema intern de videotrucades amb transmissió d’àudio, compartició de pantalla i transcripció automàtica, integrant diferents serveis.",
+    "en": "Development of an internal video calling system with audio streaming, screen sharing and automatic transcription, integrating multiple services."
+  },
+  "Videollamadas · Audio · Transcripción": {
+    "ca": "Videotrucades · Àudio · Transcripció",
+    "en": "Video calls · Audio · Transcription"
+  },
+  "Inteligencia artificial": {
+    "ca": "Intel·ligència artificial",
+    "en": "Artificial intelligence"
+  },
+  "Desarrollo e integración de asistentes conversacionales que procesan audio y generan respuestas en tiempo real, en aplicaciones web y sistemas externos, incluidos escenarios de atención telefónica.": {
+    "ca": "Desenvolupament i integració d’assistents conversacionals que processen àudio i generen respostes en temps real, en aplicacions web i sistemes externs, inclosos escenaris d’atenció telefònica.",
+    "en": "Development and integration of conversational assistants that process audio and generate real-time responses in web applications and external systems, including telephone support scenarios."
+  },
+  "Integración de modelos · Asistentes · Audio": {
+    "ca": "Integració de models · Assistents · Àudio",
+    "en": "Model integration · Assistants · Audio"
+  },
+  "Datos e infraestructura": {
+    "ca": "Dades i infraestructura",
+    "en": "Data and infrastructure"
+  },
+  "Trabajo con bases de datos relacionales y documentales, optimización de consultas, entornos dockerizados y mantenimiento y despliegue de aplicaciones empresariales.": {
+    "ca": "Treball amb bases de dades relacionals i documentals, optimització de consultes, entorns dockeritzats i manteniment i desplegament d’aplicacions empresarials.",
+    "en": "Working with relational and document databases, query optimization, Docker environments and enterprise application maintenance and deployment."
+  },
+  "100 % remoto": {
+    "ca": "100 % remot",
+    "en": "Fully remote"
+  },
+  "Híbrido": {
+    "ca": "Híbrid",
+    "en": "Hybrid"
+  },
+  "Funciones y tecnologías": {
+    "ca": "Funcions i tecnologies",
+    "en": "Responsibilities and technologies"
+  },
+  "Desarrollo de soluciones internas y productos propios de comunicación en tiempo real e integración de inteligencia artificial.": {
+    "ca": "Desenvolupament de solucions internes i productes propis de comunicació en temps real i integració d’intel·ligència artificial.",
+    "en": "Developing internal solutions and in-house products for real-time communication and AI integration."
+  },
+  "Evolución de un SDK propietario e implementación autónoma de nuevas funcionalidades.": {
+    "ca": "Evolució d’un SDK propietari i implementació autònoma de noves funcionalitats.",
+    "en": "Evolving a proprietary SDK and independently implementing new features."
+  },
+  "Videollamadas con audio en tiempo real, pantalla compartida y transcripción automática.": {
+    "ca": "Videotrucades amb àudio en temps real, pantalla compartida i transcripció automàtica.",
+    "en": "Video calls with real-time audio, screen sharing and automatic transcription."
+  },
+  "Asistentes conversacionales de IA integrados con entornos web y sistemas externos.": {
+    "ca": "Assistents conversacionals d’IA integrats amb entorns web i sistemes externs.",
+    "en": "Conversational AI assistants integrated with web environments and external systems."
+  },
+  "Investigación, evaluación de alternativas y propuestas técnicas para apoyar decisiones.": {
+    "ca": "Recerca, avaluació d’alternatives i propostes tècniques per donar suport a decisions.",
+    "en": "Research, evaluation of alternatives and technical proposals to support decisions."
+  },
+  "Mejora continua de las soluciones a partir del feedback recibido.": {
+    "ca": "Millora contínua de les solucions a partir del feedback rebut.",
+    "en": "Continuous improvement based on feedback."
+  },
+  "Backend para soluciones del sector de eventos, centradas en trazabilidad y control antifraude de entradas.": {
+    "ca": "Backend per a solucions del sector d’esdeveniments, centrades en traçabilitat i control antifrau d’entrades.",
+    "en": "Backend for event-industry solutions focused on ticket traceability and fraud prevention."
+  },
+  "Desarrollo de funcionalidades con Node.js y personalización y mantenimiento de APIs con Strapi.": {
+    "ca": "Desenvolupament de funcionalitats amb Node.js i personalització i manteniment d’APIs amb Strapi.",
+    "en": "Feature development with Node.js and API customization and maintenance with Strapi."
+  },
+  "MySQL y MongoDB: optimización de consultas y estructuras de datos.": {
+    "ca": "MySQL i MongoDB: optimització de consultes i estructures de dades.",
+    "en": "MySQL and MongoDB: query and data structure optimization."
+  },
+  "Integración con el equipo frontend de React y trabajo en entornos dockerizados.": {
+    "ca": "Integració amb l’equip frontend de React i treball en entorns dockeritzats.",
+    "en": "Integration with the React frontend team and work in Docker environments."
+  },
+  "Colaboración con metodologías Agile, Scrum y Kanban.": {
+    "ca": "Col·laboració amb metodologies Agile, Scrum i Kanban.",
+    "en": "Collaboration using Agile, Scrum and Kanban."
+  },
+  "Desarrollo y mantenimiento de la Plataforma de Contratación del Sector Público (PLACSP).": {
+    "ca": "Desenvolupament i manteniment de la Plataforma de Contractació del Sector Públic (PLACSP).",
+    "en": "Development and maintenance of Spain’s Public Sector Procurement Platform (PLACSP)."
+  },
+  "Funcionalidades backend con Java, mejoras evolutivas y resolución de incidencias.": {
+    "ca": "Funcionalitats backend amb Java, millores evolutives i resolució d’incidències.",
+    "en": "Backend features with Java, ongoing improvements and issue resolution."
+  },
+  "Repositorios con Bitbucket y participación en despliegues sobre JBoss.": {
+    "ca": "Repositoris amb Bitbucket i participació en desplegaments sobre JBoss.",
+    "en": "Repository management with Bitbucket and participation in JBoss deployments."
+  },
+  "Trabajo en equipo con metodología Agile/Scrum.": {
+    "ca": "Treball en equip amb metodologia Agile/Scrum.",
+    "en": "Teamwork using Agile/Scrum."
+  },
+  "Primeras experiencias": {
+    "ca": "Primeres experiències",
+    "en": "Early experience"
+  },
+  "Técnico web en prácticas": {
+    "ca": "Tècnic web en pràctiques",
+    "en": "Web technician internship"
+  },
+  "Desarrollo y mantenimiento web.": {
+    "ca": "Desenvolupament i manteniment web.",
+    "en": "Web development and maintenance."
+  },
+  "Especialista informático en prácticas": {
+    "ca": "Especialista informàtic en pràctiques",
+    "en": "IT specialist internship"
+  },
+  "Experiencia formativa inicial en el ámbito informático.": {
+    "ca": "Experiència formativa inicial en l’àmbit informàtic.",
+    "en": "Initial practical training in IT."
+  },
+  "Mod personal de Minecraft inspirado en Spectrobes. Desarrollo sus sistemas de juego y combino programación en Java con diseño de criaturas y modelado 3D en Blockbench. La wiki documenta las mecánicas y el progreso del proyecto.": {
+    "ca": "Mod personal de Minecraft inspirat en Spectrobes. Desenvolupo els seus sistemes de joc i combino programació en Java amb disseny de criatures i modelatge 3D a Blockbench. La wiki documenta les mecàniques i el progrés del projecte.",
+    "en": "A personal Minecraft mod inspired by Spectrobes. I develop its gameplay systems, combining Java programming with creature design and 3D modeling in Blockbench. The wiki documents its mechanics and progress."
+  },
+  "Aplicación web para conectar empleados de T-Systems mediante actividades compartidas. Proyecto de equipo del bootcamp Full Stack Java, con backend en Spring Boot y frontend en Angular.": {
+    "ca": "Aplicació web per connectar empleats de T-Systems mitjançant activitats compartides. Projecte d’equip del bootcamp Full Stack Java, amb backend en Spring Boot i frontend en Angular.",
+    "en": "A web application connecting T-Systems employees through shared activities. Built as a team project during the Full Stack Java bootcamp, with a Spring Boot backend and Angular frontend."
+  },
+  "Colaboración en el diseño técnico y en elementos de interfaz para la serie de YouTube Mundo Pixelmon 3. Un proyecto que une diseño visual y experiencia de juego dentro de Minecraft.": {
+    "ca": "Col·laboració en el disseny tècnic i en elements d’interfície per a la sèrie de YouTube Mundo Pixelmon 3. Un projecte que uneix disseny visual i experiència de joc dins de Minecraft.",
+    "en": "A contribution to the technical design and interface elements for the YouTube series Mundo Pixelmon 3, bringing visual design and gameplay experience together within Minecraft."
+  },
+  "Saltar al contenido": {
+    "ca": "Saltar al contingut",
+    "en": "Skip to content"
+  },
+  "Colaboración en el diseño técnico y en elementos de interfaz para la serie de YouTube Mundo Pixelmon 3. La serie tiene un alcance estimado de entre 15 y 30 millones de visualizaciones acumuladas en YouTube.": {
+    "ca": "Col·laboració en el disseny tècnic i en elements d’interfície per a la sèrie de YouTube Mundo Pixelmon 3. La sèrie té un abast estimat d’entre 15 i 30 milions de visualitzacions acumulades a YouTube.",
+    "en": "Contributed to the technical design and interface elements for the YouTube series Mundo Pixelmon 3. The series has an estimated cumulative reach of 15–30 million views on YouTube."
+  },
+  "Más de 3 años desarrollando software. Mi foco es el backend, la comunicación en tiempo real y la integración de IA.": {
+    "ca": "Més de 3 anys desenvolupant programari. El meu focus és el backend, la comunicació en temps real i la integració d’IA.",
+    "en": "Over 3 years building software, focused on backend, real-time communication and AI integration."
+  },
+  "Mi forma de trabajar": {
+    "ca": "La meva manera de treballar",
+    "en": "How I work"
+  },
+  "Diseño técnico e interfaces para la serie de Minecraft Mundo Pixelmon 3.": {
+    "ca": "Disseny tècnic i interfícies per a la sèrie de Minecraft Mundo Pixelmon 3.",
+    "en": "Technical design and interfaces for the Minecraft series Mundo Pixelmon 3."
+  },
+  "Visualizaciones estimadas de la serie en YouTube": {
+    "ca": "Visualitzacions estimades de la sèrie a YouTube",
+    "en": "Estimated views across the series on YouTube"
+  },
+  "La serie tiene un alcance estimado de": {
+    "ca": "La sèrie té un abast estimat de",
+    "en": "The series has an estimated reach of"
+  },
+  "15–30 millones": {
+    "ca": "15–30 milions",
+    "en": "15–30 million"
+  },
+  "visualizaciones acumuladas en YouTube.": {
+    "ca": "visualitzacions acumulades a YouTube.",
+    "en": "cumulative views on YouTube."
   }
 }
